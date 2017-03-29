@@ -1,0 +1,4 @@
+Deprecator.cpp  on chrome/browser/
+on chrome_browser_main.cc  in function: PreCreateThreadsImpl()
+DeprecatorClass *singleton=nullptr;
+singleton = singleton->getInstance();
