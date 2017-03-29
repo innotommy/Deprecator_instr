@@ -10,10 +10,11 @@ def instrument():
 		for line in f:
 			instr.append(json.loads(line))
 	file = open('instrument.json','a')
+	temp =[]
 	for j in range(len(instr)):
 		tup={"filename":instr[j]['filecpp'],"function":instr[j]['method']}
-		json.dump(tup,file)
-		file.write('\n')
+		temp.append(tup)
+	json.dump(temp,file)
 	file.close()
 
 

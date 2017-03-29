@@ -47,17 +47,19 @@ private:
         {
         m_instanceDeprecator= this;
         }
+        '''
         base::FilePath original_file_path;
         PathService::Get(base::DIR_CURRENT, &original_file_path);
         original_file_path = original_file_path.AppendASCII(config_doc);
     	JSONFileValueDeserializer deserializer2(original_file_path);
     	int errorcode=0;
     	std::string errormessage;
-  		dizionario = base::DictionaryValue::From(deserializer2.Deserialize(&errorcode, &errormessage));
-		if (dizionario == NULL)//error reading the json file
+  		dep_config = base::DictionaryValue::From(deserializer2.Deserialize(&errorcode, &errormessage));
+		if (dep_config == NULL)//error reading the json file
 			{
    			 	return;//error reading configuration file
 			}
+        '''
     }
 
     ~DeprecatorClass() {}
