@@ -1,0 +1,3 @@
+../../third_party/WebKit/Source/core/frame/csp/ContentSecurityPolicy.cpp:selfMatchesInnerURL
+../../third_party/WebKit/Source/core/frame/csp/ContentSecurityPolicyTest.cpp:SetUp
+
