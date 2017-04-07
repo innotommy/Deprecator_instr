@@ -1,3 +1,6 @@
+src/third_party/WebKit/Source/modules/plugins/NavigatorPlugins.cpp:javaEnabled
+src/third_party/WebKit/Source/core/html/HTMLCollection.cpp:item
+src/third_party/WebKit/Source/core/html/HTMLCollection.cpp:namedItem
 src/third_party/WebKit/Source/core/dom/Document.cpp:embeds
 src/third_party/WebKit/Source/core/frame/DOMWindow.h:captureEvents
 src/third_party/WebKit/Source/core/frame/DOMWindow.h:releaseEvents
