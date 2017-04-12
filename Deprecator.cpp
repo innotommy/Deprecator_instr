@@ -1,7 +1,14 @@
-#include "chrome/browser/Deprecator.h"
+#include <iostream>
+#include <fstream>
+#include <string>
+#include "base/json/json_file_value_serializer.h"
+#include "base/path_service.h"
+#include "base/values.h"
+#include "base/json/json_string_value_serializer.h"
+#include "base/time/time.h"
 
-
-//first version of controller
+#define config_doc "Deprecatorconfig.json"
+//second version of controller
 class DeprecatorClass {
 
 public:
@@ -38,7 +45,7 @@ private:
         {
         m_instanceDeprecator= this;
         }
-        '''
+        /*
         base::FilePath original_file_path;
         PathService::Get(base::DIR_CURRENT, &original_file_path);
         original_file_path = original_file_path.AppendASCII(config_doc);
@@ -50,7 +57,7 @@ private:
 			{
    			 	return;//error reading configuration file
 			}
-        '''
+        */
     }
 
     ~DeprecatorClass() {}
