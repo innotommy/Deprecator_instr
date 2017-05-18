@@ -1,0 +1,38 @@
+no idl:
+{"fileidl": "/Users/innotommy91/qwer/src/v8/src/inspector/", "filecpp": "v8-console.cc", "feature": "Console.prototype.timeline", "standard": "Console API", "return_type": "void", "method": "timelineCallback"}
+{"fileidl": "/Users/innotommy91/qwer/src/v8/src/inspector/", "filecpp": "v8-console.cc", "feature": "Console.prototype.log", "standard": "Console API", "return_type": "void", "method": "logCallback"}
+{"fileidl": "/Users/innotommy91/qwer/src/v8/src/inspector/", "filecpp": "v8-console.cc", "feature": "Console.prototype.groupEnd", "standard": "Console API", "return_type": "void", "method": "groupEndCallback"}
+{"fileidl": "/Users/innotommy91/qwer/src/v8/src/inspector/", "filecpp": "v8-console.cc", "feature": "Console.prototype.table", "standard": "Console API", "return_type": "void", "method": "tableCallback"}
+{"fileidl": "/Users/innotommy91/qwer/src/v8/src/inspector/", "filecpp": "v8-console.cc", "feature": "Console.prototype.markTimeline", "standard": "Console API", "return_type": "void", "method": "markTimelineCallback"}
+{"fileidl": "/Users/innotommy91/qwer/src/v8/src/inspector/", "filecpp": "v8-console.cc", "feature": "Console.prototype.assert", "standard": "Console API", "return_type": "void", "method": "assertCallback"}
+{"fileidl": "/Users/innotommy91/qwer/src/v8/src/inspector/", "filecpp": "v8-console.cc", "feature": "Console.prototype.profileEnd", "standard": "Console API", "return_type": "void", "method": "profileEndCallback"}
+{"fileidl": "/Users/innotommy91/qwer/src/v8/src/inspector/", "filecpp": "v8-console.cc", "feature": "Console.prototype.groupCollapsed", "standard": "Console API", "return_type": "void", "method": "groupCollapsedCallback"}
+{"fileidl": "/Users/innotommy91/qwer/src/v8/src/inspector/", "filecpp": "v8-console.cc", "feature": "Console.prototype.clear", "standard": "Console API", "return_type": "void", "method": "clearCallback"}
+{"fileidl": "/Users/innotommy91/qwer/src/v8/src/inspector/", "filecpp": "v8-console.cc", "feature": "Console.prototype.dirxml", "standard": "Console API", "return_type": "void", "method": "dirxmlCallback"}
+{"fileidl": "/Users/innotommy91/qwer/src/v8/src/inspector/", "filecpp": "v8-console.cc", "feature": "Console.prototype.timeEnd", "standard": "Console API", "return_type": "void", "method": "timeEndCallback"}
+{"fileidl": "/Users/innotommy91/qwer/src/v8/src/inspector/", "filecpp": "v8-console.cc", "feature": "Console.prototype.error", "standard": "Console API", "return_type": "void", "method": "errorCallback"}
+{"fileidl": "/Users/innotommy91/qwer/src/v8/src/inspector/", "filecpp": "v8-console.cc", "feature": "Console.prototype.profile", "standard": "Console API", "return_type": "void", "method": "profileCallback"}
+{"fileidl": "/Users/innotommy91/qwer/src/v8/src/inspector/", "filecpp": "v8-console.cc", "feature": "Console.prototype.warn", "standard": "Console API", "return_type": "void", "method": "warnCallback"}
+{"fileidl": "/Users/innotommy91/qwer/src/v8/src/inspector/", "filecpp": "v8-console.cc", "feature": "Console.prototype.trace", "standard": "Console API", "return_type": "void", "method": "traceCallback"}
+{"fileidl": "/Users/innotommy91/qwer/src/v8/src/inspector/", "filecpp": "v8-console.cc", "feature": "Console.prototype.info", "standard": "Console API", "return_type": "void", "method": "infoCallback"}
+{"fileidl": "/Users/innotommy91/qwer/src/v8/src/inspector/", "filecpp": "v8-console.cc", "feature": "Console.prototype.count", "standard": "Console API", "return_type": "void", "method": "countCallback"}
+{"fileidl": "/Users/innotommy91/qwer/src/v8/src/inspector/", "filecpp": "v8-console.cc", "feature": "Console.prototype.timeStamp", "standard": "Console API", "return_type": "void", "method": "timeStampCallback"}
+{"fileidl": "/Users/innotommy91/qwer/src/v8/src/inspector/", "filecpp": "v8-console.cc", "feature": "Console.prototype.debug", "standard": "Console API", "return_type": "void", "method": "debugCallback"}
+{"fileidl": "/Users/innotommy91/qwer/src/v8/src/inspector/", "filecpp": "v8-console.cc", "feature": "Console.prototype.group", "standard": "Console API", "return_type": "void", "method": "groupCallback"}
+{"fileidl": "/Users/innotommy91/qwer/src/v8/src/inspector/", "filecpp": "v8-console.cc", "feature": "Console.prototype.time", "standard": "Console API", "return_type": "void", "method": "timeCallback"}
+{"fileidl": "/Users/innotommy91/qwer/src/v8/src/inspector/", "filecpp": "v8-console.cc", "feature": "Console.prototype.dir", "standard": "Console API", "return_type": "void", "method": "dirCallback"}
+{"fileidl": "/Users/innotommy91/qwer/src/v8/src/inspector/", "filecpp": "v8-console.cc", "feature": "Console.prototype.timelineEnd", "standard": "Console API", "return_type": "void", "method": "timelineEndCallback"}
+
+{"fileidl": "", "filecpp": "peerconnection.cc", "feature": "mozRTCPeerConnection.prototype.getReceivers", "standard": "WebRTC 1.0: Real-time Communication Between Browser", "return_type": "", "method": "getReceivers"}
+{"fileidl": "", "filecpp": "peerconnection.cc", "feature": "mozRTCPeerConnection.prototype.getSenders", "standard": "WebRTC 1.0: Real-time Communication Between Browser", "return_type": "vector", "method": "getSenders"}
+{"fileidl": "", "filecpp": "peerconnection.cc", "feature": "mozRTCPeerConnection.prototype.removeTrack", "standard": "WebRTC 1.0: Real-time Communication Between Browser", "return_type": "bool", "method": "removeTrack"}
+
+{"fileidl": "/Users/innotommy91/qwer/src/third_party/WebKit/Source/core/css/", "filecpp": "CSSValueList.h", "feature": "CSSValueList.prototype.item", "standard": "Document Object Model (DOM) Level 2 Style Specification", "return_type": "CSSValue&", "method": "item"}
+{"fileidl": "/Users/innotommy91/qwer/src/third_party/WebKit/Source/core/css/", "filecpp": "CSSPrimitiveValue.h", "feature": "CSSPrimitiveValue.prototype.getFloatValue", "standard": "Document Object Model (DOM) Level 2 Style Specification", "return_type": "float", "method": "getFloatValue"}
+{"fileidl": "/Users/innotommy91/qwer/src/third_party/WebKit/Source/core/frame/Window.idl", "filecpp": "LocalDOMWindow.cpp", "feature": "window.getComputedStyle", "standard": "Document Object Model (DOM) Level 2 Style Specification", "return_type": "CSSStyleDeclaration", "method": "getComputedStyle"}
+{"fileidl": "/Users/innotommy91/qwer/src/third_party/WebKit/Source/core/frame/Window.idl", "filecpp": "RemoteDOMWindow.cpp", "feature": "window.getComputedStyle", "standard": "Document Object Model (DOM) Level 2 Style Specification", "return_type": "CSSStyleDeclaration", "method": "getComputedStyle"}
+
+{"fileidl": "/Users/innotommy91/qwer/src/third_party/WebKit/Source/platform/mediastream", "filecpp": "MediaStreamCenter.cpp", "feature": "LocalMediaStream.prototype.stop", "standard": "Media Capture and Streams", "return_type": "void", "method": "stopLocalMediaStream"}
+
+{"fileidl": "src/third_party/WebKit/Source/core/css/", "filecpp": "src/third_party/WebKit/Source/core/css/CSSComputedStyleDeclaration.cpp", "feature": "CSSStyleDeclaration.prototype.getPropertyCSSValue", "standard": "Document Object Model (DOM) Level 2 Style Specification", "return_type": "CSSValue", "method": "getPropertyCSSValue"}
+{"fileidl": "src/third_party/WebKit/Source/core/html/", "filecpp": "src/third_party/WebKit/Source/core/html/HTMLInputElement.cpp", "feature": "HTMLInputElement.prototype.mozIsTextField", "standard": "Non-Standard", "return_type": "bool", "method": "IsTextField"}

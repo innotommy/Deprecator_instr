@@ -158,7 +158,7 @@ void ConstructorCallback::run(const MatchFinder::MatchResult& Result) {
                     // Abort!
                     break;
 
-                trace_full = std::string("\bDeprecatorClass *singleton=nullptr;\bsingleton = singleton->getInstance();\bsingleton->LogFunction(\"") + std::string(fun_id) + std::string("\");\b);");
+                trace_full = std::string("\bDeprecatorClass *singleton=nullptr;\bsingleton = singleton->getInstance();\bsingleton->LogFunction(\"") + std::string(fun_id) + std::string("\");\b");
                  
                 Replacement Rep(*(Result.SourceManager), iter->getLocStart(), 0, trace_full );
                 std::string reps = Rep.toString();
@@ -220,7 +220,7 @@ int main(int argc, const char* argv[]) {
 
     CommonOptionsParser options(argc, argv, category);
     clang::tooling::RefactoringTool tool(options.getCompilations(), options.getSourcePathList());
-    std::string include_replacement =  "#include \"chrome/browser/Deprecator.h\"\b";
+    std::string include_replacement =  "#include \"chrome/browser/Deprecator.cpp\"\b";
     std::vector<std::string> seen_files(0);
 
 

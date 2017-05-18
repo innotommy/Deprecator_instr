@@ -1,11 +1,4 @@
-#include <iostream>
-#include <fstream>
-#include <string>
-#include "base/json/json_file_value_serializer.h"
-#include "base/path_service.h"
-#include "base/values.h"
-#include "base/json/json_string_value_serializer.h"
-#include "base/time/time.h"
+#include "chrome/browser/Deprecator.h"
 
 #define config_doc "Deprecatorconfig.json"
 //second version of controller
@@ -27,7 +20,7 @@ public:
     void LogFunction(std::string name)
     {   
     	std::ofstream log;
-    	log.open("log.txt",std::fstream::app);
+    	log.open("log.txt",std::ofstream::app);
         log << name;
         log << " ";
         log << "time:";
