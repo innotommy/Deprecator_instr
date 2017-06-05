@@ -1,0 +1,112 @@
+if(!DeprecatorClass::check(std::blablabla))
+	return "what returning"
+
+
+if(long long|long|short|double|unsigned long| unsigned long long|unsigned short|float|GLint|DOMHighResTimeStamp
+	|GLenum|SourceBuffer|ClientRect)
+	return 0
+if(String|ByteString|DOMString|USVString|ByteString|Uint8Array)
+	return ""
+if(boolean)
+	return true
+if (GLboolean)
+	return GLboolean value = 0;
+if (Comment)
+	return Comment::create(*this, "");
+if(Attr|HTMLCollection|Element|nodelist o Element|HTMLElement|Node|IDBRequest|SVGTransform|ItemProperty
+	NodeList|MimeType|IDBKeyRang|Window|Response|Range|applicationCache|XPathResult|WebGLActiveInfo|Text
+	|Plugin|Navigator|MediaQueryList|ImageData|IDBOpenDBRequest|IDBObjectStore|IDBIndex|History|DOMWindow
+	|CSSStyleDeclaration|XMLDocument|WebGLUniformLocation|WebGLTexture|WebGLShaderPrecisionFormat|WebGLShader
+	|WebGLRenderbuffer|WebGLProgram|WebGLFramebuffer|WebGLBuffer|TextTrackCue|StyleSheet|Request|RTCDataChannel
+	|ArrayBufferView|Document|MediaStream|location|TextTrack|Selection|Nullable<Vector<String>>|Nullable<HeapVector<Member<WebGLShader>>>
+	|HTMLHeadElement|File|CanvasPattern|SVGRect|HTMLTableSectionElement|screen|PerformanceNavigation|PerformanceTiming
+	|Float32Array|XPathNSResolver|WaveShaperNode|StereoPannerNode|TreeWalker|ScriptProcessorNode|PannerNode
+	|OscillatorNode|NodeIterator|MimeTypeArray|MediaStreamAudioSourceNode|MediaStreamAudioSourceNode
+	|MediaStreamAudioDestinationNode|MediaElementAudioSourceNode|Geolocation|DynamicsCompressorNode|DelayNode
+	|DOMImplementation|ConvolverNode|ChannelSplitterNode|ChannelMergerNode|BiquadFilterNode|AnalyserNode
+	|DocumentFragment|SVGPoint|SVGMatrix|AudioParam|SVGTransform)
+	return nullptr
+if(BarProp)
+	return BarProp::create(nullptr, BarProp::Menubar);
+if(DOMMatrix)
+	return  new DOMMatrixReadOnly();
+if(void)
+	return
+if(Promise|Promise<USVString>|Promise<JSON>|Promise<Blob>|Promise<ArrayBuffer>|promise|ScriptPromise)
+	return ScriptPromise()
+if(StaticNodeList)
+	return StaticNodeList::createEmpty()
+if(sequence<MediaStreamTrack>)
+	return MediaStreamTrackVector sample
+if(PerformanceEntryList)
+	return PerformanceEntryVector sample
+DocumentTypeif(TagCollection)
+	return ensureCachedCollection<TagCollection>(TagCollectionType,nullAtom,localName);
+if(MediaStreamVector)
+	return MediaStreamVector sample
+if(DocumentType)
+	return DocumentType sample|nullptr
+if(ClientRectList)
+	return ClientRectList::create()
+if(CanvasGradient)
+	returnCanvasGradient* gradient = CanvasGradient::create(FloatPoint(0,0), FloatPoint(0,0))|nullptr
+if(visibilityState)
+	return PageVisibilityStateHidden
+if(vector)
+	return std::vector<rtc::scoped_refptr<RtpSenderInterface>> sample
+if(std::vector<rtc::scoped_refptr<RtpReceiverInterface>>)
+	return std::vector<rtc::scoped_refptr<RtpReceiverInterface>> sample
+if(sequence<unrestricted double>)
+	return  Vector<double> sample
+if(sequence<USVString>)
+	return  Vector<String> sample;
+if(sequence<MutationRecord>)
+	return MutationRecordVector sample;
+if(sequence<FormDataEntryValue>)
+	return HeapVector<FormDataEntryValue> sample;
+if(sequence<ByteString>)
+	return Vector<String>()
+if(XPathExpression)
+	return XPathExpression::create()
+if(VideoPlaybackQuality)
+	return VideoPlaybackQuality::create(videoElement.document(),0,0,0);
+if(USVString)
+	return String()
+if(TextMetrics)
+	return TextMetrics* metrics = TextMetrics::create();
+if(ScriptValue)
+	return ScriptValue::createNull(scriptState)
+if(SVGNumber)
+	return SVGNumberTearOff::create(SVGNumber::create(0.0f), 0,PropertyIsNotAnimVal)
+if(SVGLength)
+	return SVGLengthTearOff::create(SVGLength::create(), 0, PropertyIsNotAnimVal);
+if(SVGAngle)
+	return SVGAngleTearOff::create(SVGAngle::create(), 0, PropertyIsNotAnimVal);
+if(PeriodicWave)
+	return nullptr|PeriodicWave::create(*this, OMFloat32Array* sample, OMFloat32Array* sample2, false, exceptionState);
+if(MediaDevices)
+	return m_mediaDevices
+if(ItemPropertyType)
+	return ItemProperty* sample
+if(HTMLTableCaptionElement)
+	return HTMLTableCaptionElement* sample;
+if(HTMLDocument)
+	return HTMLDocument::create(init);
+if(GamepadList)
+	return GamepadList::create();
+if(Float64Array)
+	return DOMFloat64Array::create(double array[], 16)
+if(DOMString[])
+	return Vector<String> sample;
+if(CanPlayTypeResult)
+	return emptyString();
+if(CSSValue&)
+	return HeapVector<CSSValue, 4> sample;
+if(AudioBufferSourceNode)
+	return AudioBufferSourceNode* sample;
+if(AudioBuffer)
+	return AudioBuffer* sample 
+if(SVGMatrixTearOff)
+	return SVGMatrixTearOff::create(AffineTransform());
+if(AffineTransform)
+	return AffineTransform sample;

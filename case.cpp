@@ -27,7 +27,7 @@ if(DOMMatrix)
 if(void)
 	return
 
-if(Promise)
+if(Promise|Promise<USVString>|Promise<JSON>|Promise<Blob>|Promise<ArrayBuffer>|promise|ScriptPromise)
 	return ScriptPromise()
 if(AudioParam)
 	return new AudioParam(this.context(),0,0,0)|nullptr
@@ -79,14 +79,6 @@ if(TagCollection)
 	return ensureCachedCollection<TagCollection>(TagCollectionType,nullAtom,localName);
 if(Selection)
 	return nullptr|0
-if(Promise<USVString>)
-	return ScriptPromise()
-if(Promise<JSON>)
-	return ScriptPromise()
-if(Promise<Blob>)
-	return ScriptPromise()
-if(Promise<ArrayBuffer>)
-	return ScriptPromise()
 if(Plugin)
 	return nullptr
 if(PerformanceNavigation) ~
@@ -139,8 +131,6 @@ if(sequence<FormDataEntryValue>)
 	return HeapVector<FormDataEntryValue> results;
 if(sequence<ByteString>)
 	return Vector<String>()
-if(promise)
-	return ScriptPromise()
 if(XPathNSResolver) ~
 	return nullptr
 if(XPathExpression)
@@ -183,8 +173,6 @@ if(StereoPannerNode) ~~
 	return nullptr
 if(SourceBuffer)
 	return 0
-if(ScriptPromise)
-	return ScriptPromise()
 if(ScriptProcessorNode) ~
 	return nullptr
 if(ScriptValue)
@@ -304,6 +292,4 @@ if(Document)
 if(DocumentFragment)
 	return nullptr|  DocumentFragment* fragment = nullptr;|DocumentFragment::create(document());
 if(SVGPoint) ~~
-	return nullptr
-if(Attr)
 	return nullptr

@@ -13,11 +13,11 @@ class DeprecatorClass {
 public:
 
  static DeprecatorClass* GetInstance();
- void LoadConfig();
  bool Check(std::string func);
 
 private:
 
+ void LoadConfig();
  DeprecatorClass();
  friend struct base::DefaultSingletonTraits<DeprecatorClass>;
 

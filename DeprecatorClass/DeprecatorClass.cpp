@@ -5,10 +5,6 @@ bool Log;
 std::unique_ptr<base::DictionaryValue> Dictionary;
 
 DeprecatorClass* DeprecatorClass::GetInstance(){
-  std::ofstream log;
-  log.open("log.txt",std::ofstream::app);
-  log << base::Singleton<DeprecatorClass>::get();
-  log.close();
   return base::Singleton<DeprecatorClass>::get();
 }
 
@@ -35,42 +31,43 @@ bool DeprecatorClass::Check(std::string func)
     log << "time:";
     log << base::Time::Now();
     log << "##";
-    log << block;
+    log << func;
     log << "##";
-    log << " instrance of DeprecatorClass: ";
-    log << this;
+    log << block;
     log << "\n";
     log.close();
 
     if(block == "Block")
     {
-      return false;
+      return true;
     }
     else if(block == "Allow")
     {
-      return true;
+      return false;
     }
     else if(block == "Ask")
     {
-      return true;
+      return false;
     }
   }
   else
   {
     if(block == "Block")
     {
-      return false;
+      return true;
     }
     else if(block == "Allow")
     {
-      return true;
+      return false;
     }
     else if(block == "Ask")
     {
-      return true;
+      return false;
     }
   }
-  return false;
+  return true;
 }
 
-DeprecatorClass::DeprecatorClass(){};
+DeprecatorClass::DeprecatorClass(){
+  LoadConfig();
+};
