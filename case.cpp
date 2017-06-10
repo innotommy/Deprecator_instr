@@ -8,6 +8,8 @@ if(String|ByteString|DOMString|USVString|ByteString)
 
 if(boolean)
 	return true
+if(AtomicString&)
+	return nullAtom
 
 if (GLboolean)
 	return GLboolean value = 0;
@@ -15,7 +17,7 @@ if (GLboolean)
 if (Comment)
 	return Comment::create(*this, "");
 
-if(Attr|HTMLCollection|Element|nodelist o Element|HTMLElement|Node|IDBRequest|SVGTransform|ItemProperty)
+if(Attr|HTMLCollection|Element|nodelist o Element|HTMLElement|Node|IDBRequest|SVGTransform|ItemProperty|Remote_BarProp)
 	return nullptr
 
 if(BarProp)
