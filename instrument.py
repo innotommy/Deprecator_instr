@@ -21,6 +21,12 @@ def instrument():
 		file.write(instr[j]['method'])
 		file.write("\n")
 	file.close()
+	file = open('Deprecatorconfig.json','a')
+	config = {}
+	for j in range(len(instr)):
+		config[instr[j]['filecpp']+"##"+instr[j]['method']]="Allow"
+	json.dump(config,file)
+	file.close()
 	file = open('return_target.txt','a')
 	for j in range(len(instr)):
 		file.write(instr[j]['filecpp'])
