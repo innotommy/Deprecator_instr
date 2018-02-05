@@ -1,0 +1,3827 @@
+{
+    "funcalwaysused": [
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:body",
+        "../../third_party/WebKit/Source/core/frame/DOMWindow.cpp:self",
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:getAttribute",
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:head",
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:hidden",
+        "../../third_party/WebKit/Source/core/dom/TreeScope.cpp:getElementById",
+        "../../third_party/WebKit/Source/core/dom/Node.cpp:contains",
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:forms",
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:setAttribute",
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:createTextNode",
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:navigator",
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:location",
+        "../../third_party/WebKit/Source/core/events/EventTarget.cpp:removeEventListener",
+        "../../third_party/WebKit/Source/core/dom/DOMImplementation.cpp:createDocument",
+        "../../third_party/WebKit/Source/core/dom/Node.cpp:removeChild",
+        "../../third_party/WebKit/Source/core/events/EventTarget.cpp:addEventListener",
+        "../../third_party/WebKit/Source/core/dom/Range.cpp:selectNodeContents",
+        "../../third_party/WebKit/Source/core/dom/Node.cpp:compareDocumentPosition",
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:document",
+        "../../third_party/WebKit/Source/core/dom/Node.cpp:appendChild",
+        "../../third_party/WebKit/Source/core/html/HTMLCollection.cpp:item",
+        "../../third_party/WebKit/Source/core/events/EventTarget.cpp:dispatchEvent",
+        "../../third_party/WebKit/Source/core/frame/DOMWindow.cpp:location"
+    ],
+    "funcneverused": [
+        "../../third_party/WebKit/Source/modules/mediacapturefromelement/HTMLMediaElementCapture.cpp:captureStream",
+        "../../third_party/WebKit/Source/core/html/HTMLTableRowElement.cpp:insertCell",
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:scrollBy",
+        "../../third_party/WebKit/Source/core/fileapi/Blob.cpp:slice",
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:createEvent",
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:strokeRect",
+        "../../third_party/WebKit/Source/core/editing/DOMSelection.cpp:collapse",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:colorMask",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:vertexAttrib2fv",
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:getAttributeNodeNS",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:moveBy",
+        "../../third_party/WebKit/Source/core/dom/NamedNodeMap.cpp:setNamedItemNS",
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:print",
+        "../../third_party/WebKit/Source/core/dom/Node.cpp:normalize",
+        "../../third_party/WebKit/Source/core/dom/ParentNode.h:lastElementChild",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:applicationCache",
+        "../../third_party/WebKit/Source/core/dom/NodeList.cpp:item",
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBIndex.cpp:count",
+        "../../third_party/WebKit/Source/modules/webaudio/BaseAudioContext.cpp:createStereoPanner",
+        "../../third_party/WebKit/Source/core/xml/XSLTProcessor.cpp:importStylesheet",
+        "../../third_party/WebKit/Source/core/svg/SVGSVGElement.cpp:unsuspendRedraw",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:uniform1fv",
+        "../../third_party/WebKit/Source/core/dom/DOMMatrix.cpp:rotateFromVectorSelf",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:requestAnimationFrame",
+        "../../third_party/WebKit/Source/core/dom/NonElementParentNode.h:getElementById",
+        "../../third_party/WebKit/Source/core/svg/SVGLengthTearOff.cpp:convertToSpecifiedUnits",
+        "../../third_party/WebKit/Source/modules/webaudio/AudioParam.cpp:setValueAtTime",
+        "../../third_party/WebKit/Source/core/svg/SVGAnimationElement.cpp:endElement",
+        "../../third_party/WebKit/Source/core/html/HTMLFrameOwnerElement.cpp:getSVGDocument",
+        "../../v8/src/inspector/v8-console.cc:timelineCallback",
+        "../../third_party/WebKit/Source/modules/webaudio/AnalyserNode.cpp:getFloatFrequencyData",
+        "../../third_party/WebKit/Source/core/xml/XSLTProcessor.cpp:getParameter",
+        "../../third_party/WebKit/Source/core/svg/SVGMatrixTearOff.cpp:flipX",
+        "../../third_party/WebKit/Source/core/svg/SVGMatrixTearOff.cpp:inverse",
+        "../../third_party/WebKit/Source/modules/mediastream/MediaStream.cpp:getTracks",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:blendEquation",
+        "../../third_party/WebKit/Source/core/html/HTMLTableRowElement.cpp:deleteCell",
+        "../../third_party/WebKit/Source/core/html/HTMLButtonElement.cpp:setCustomValidity",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:getVertexAttrib",
+        "../../third_party/WebKit/Source/core/dom/DOMMatrixReadOnly.cpp:scale",
+        "../../third_party/WebKit/Source/core/dom/NamedNodeMap.cpp:getNamedItemNS",
+        "../../third_party/WebKit/Source/modules/peerconnection/RTCPeerConnection.cpp:setLocalDescription",
+        "../../third_party/WebKit/Source/core/editing/DOMSelection.cpp:extend",
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:confirm",
+        "../../third_party/WebKit/Source/core/html/HTMLFieldSetElement.cpp:checkValidity",
+        "../../third_party/WebKit/Source/core/dom/Node.cpp:cloneNode",
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBFactory.cpp:deleteDatabase",
+        "../../third_party/WebKit/Source/core/editing/DOMSelection.cpp:modify",
+        "../../third_party/WebKit/Source/core/dom/URLSearchParams.cpp:delete",
+        "../../third_party/WebKit/Source/core/html/HTMLAllCollection.cpp:namedGetter",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:outerWidth",
+        "../../third_party/WebKit/Source/core/html/FormData.cpp:delete",
+        "../../third_party/WebKit/Source/core/svg/properties/SVGListPropertyTearOffHelper.h:getItem",
+        "../../third_party/WebKit/Source/modules/crypto/SubtleCrypto.cpp:deriveKey",
+        "../../third_party/WebKit/Source/core/html/HTMLOptionsCollection.cpp:remove",
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:queryCommandIndeterm",
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:designMode",
+        "../../third_party/WebKit/Source/core/dom/ParentNode.h:children",
+        "../../third_party/WebKit/Source/core/html/HTMLSelectElement.cpp:checkValidity",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:cancelAnimationFrame",
+        "../../third_party/WebKit/Source/core/dom/Range.cpp:detach",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:uniform3iv",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:hint",
+        "../../third_party/WebKit/Source/core/dom/DOMMatrixReadOnly.cpp:translate",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:scrollbars",
+        "../../third_party/WebKit/Source/core/dom/ChildNode.h:remove",
+        "../../third_party/WebKit/Source/core/dom/DOMMatrixReadOnly.cpp:toFloat32Array",
+        "../../third_party/WebKit/Source/core/html/HTMLCanvasElement.cpp:toBlob",
+        "../../third_party/WebKit/Source/modules/encryptedmedia/MediaKeySession.cpp:update",
+        "../../third_party/WebKit/Source/modules/webaudio/OfflineAudioContext.cpp:suspendcontext",
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:removeAttributeNS",
+        "../../third_party/WebKit/Source/modules/storage/Storage.cpp:setItem",
+        "../../third_party/WebKit/Source/core/svg/SVGSVGElement.cpp:createSVGMatrix",
+        "../../third_party/WebKit/Source/core/frame/Navigator.cpp:cookieEnabled",
+        "../../third_party/WebKit/Source/core/svg/SVGMatrixTearOff.cpp:scaleNonUniform",
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBObjectStore.cpp:deleteIndex",
+        "../../third_party/WebKit/Source/core/html/HTMLTableSectionElement.cpp:insertRow",
+        "../../third_party/WebKit/Source/core/dom/DOMMatrixReadOnly.cpp:skewX",
+        "../../third_party/WebKit/Source/modules/crypto/SubtleCrypto.cpp:deriveBits",
+        "../../third_party/WebKit/Source/core/svg/SVGTextContentElement.cpp:getCharNumAtPosition",
+        "../../third_party/WebKit/Source/modules/crypto/SubtleCrypto.cpp:unwrapKey",
+        "../../third_party/WebKit/Source/core/dom/DOMMatrixReadOnly.cpp:rotateAxisAngle",
+        "../../third_party/WebKit/Source/core/svg/SVGTransformListTearOff.cpp:clear",
+        "../../third_party/WebKit/Source/modules/webaudio/OfflineAudioContext.cpp:suspend",
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBKeyRange.cpp:lowerBound",
+        "../../third_party/WebKit/Source/core/xml/DocumentXPathEvaluator.cpp:evaluate",
+        "../../third_party/WebKit/Source/core/frame/DOMWindow.h:releaseEvents",
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBObjectStore.cpp:count",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:moveTo",
+        "../../third_party/WebKit/Source/core/svg/SVGFEDropShadowElement.cpp:setStdDeviation",
+        "../../third_party/WebKit/Source/core/dom/TreeWalker.cpp:previousSibling",
+        "../../third_party/WebKit/Source/core/dom/Document.h:URL",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:blur",
+        "../../third_party/WebKit/Source/modules/mediastream/MediaStream.cpp:addTrack",
+        "../../third_party/WebKit/Source/modules/peerconnection/RTCDataChannel.cpp:close",
+        "../../third_party/WebKit/Source/core/clipboard/DataTransfer.cpp:setDragImage",
+        "../../third_party/WebKit/Source/core/svg/properties/SVGListPropertyHelper.h:removeItem",
+        "../../third_party/WebKit/Source/core/frame/DOMWindow.h:pageXOffset",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:scrollX",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:scrollY",
+        "../../third_party/WebKit/Source/modules/webaudio/AudioParam.cpp:cancelScheduledValues",
+        "../../third_party/WebKit/Source/core/css/CSSComputedStyleDeclaration.cpp:removeProperty",
+        "../../v8/src/inspector/v8-console.cc:groupCallback",
+        "../../third_party/WebKit/Source/core/dom/Document.h:characterSet",
+        "../../third_party/WebKit/Source/core/svg/SVGTransformTearOff.cpp:setScale",
+        "../../out/Default/gen/blink/core/frame/ScrollToOptions.cpp:left",
+        "../../third_party/WebKit/Source/modules/webaudio/BaseAudioContext.cpp:createDelay",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:getProgramInfoLog",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:vertexAttrib4f",
+        "../../third_party/WebKit/Source/modules/peerconnection/RTCPeerConnection.cpp:createOffer",
+        "../../third_party/WebKit/Source/core/dom/Document.h:doctype",
+        "../../third_party/WebKit/Source/core/events/MouseEvent.cpp:getModifierState",
+        "../../third_party/WebKit/Source/core/dom/CharacterData.cpp:replaceData",
+        "../../third_party/WebKit/Source/modules/device_orientation/DeviceOrientationEvent.cpp:initDeviceOrientationEvent",
+        "../../third_party/WebKit/Source/core/dom/DOMMatrixReadOnly.cpp:flipX",
+        "../../third_party/WebKit/Source/modules/webaudio/AudioListener.cpp:setOrientation",
+        "../../third_party/WebKit/Source/core/xml/XPathResult.cpp:iterateNext",
+        "../../third_party/WebKit/Source/core/svg/SVGFEGaussianBlurElement.cpp:setStdDeviation",
+        "../../third_party/WebKit/Source/core/html/HTMLTableElement.cpp:insertRow",
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:adoptNode",
+        "../../third_party/WebKit/Source/core/xml/XSLTProcessor.cpp:removeParameter",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:getShaderSource",
+        "../../third_party/WebKit/Source/modules/crypto/SubtleCrypto.cpp:wrapKey",
+        "../../third_party/WebKit/Source/modules/webaudio/AudioParam.cpp:linearRampToValueAtTime",
+        "../../third_party/WebKit/Source/core/svg/SVGMarkerElement.cpp:setOrientToAuto",
+        "../../third_party/WebKit/Source/core/html/HTMLTableElement.cpp:deleteCaption",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:uniform1iv",
+        "../../third_party/WebKit/Source/core/svg/SVGTransformTearOff.cpp:setTranslate",
+        "../../third_party/WebKit/Source/core/svg/SVGPathElement.cpp:getTotalLength",
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBDatabase.cpp:transaction",
+        "../../third_party/WebKit/Source/core/html/HTMLInputElement.cpp:setSelectionRange",
+        "../../third_party/WebKit/Source/modules/encryptedmedia/MediaKeys.cpp:createSession",
+        "../../third_party/WebKit/Source/core/dom/DOMMatrix.cpp:invertSelf",
+        "../../third_party/WebKit/Source/core/editing/DOMSelection.cpp:selectAllChildren",
+        "../../third_party/WebKit/Source/modules/storage/Storage.cpp:removeItem",
+        "../../third_party/WebKit/Source/core/dom/Range.cpp:extractContents",
+        "../../third_party/WebKit/Source/modules/fetch/Headers.cpp:delete",
+        "../../third_party/WebKit/Source/core/dom/Range.cpp:deleteContents",
+        "../../third_party/WebKit/Source/modules/fetch/Body.cpp:blob",
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:scrollBy",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:status",
+        "../../third_party/WebKit/Source/modules/peerconnection/RTCPeerConnection.cpp:generateCertificate",
+        "../../third_party/WebKit/Source/core/html/HTMLElement.cpp:blur",
+        "../../third_party/WebKit/Source/core/svg/SVGStringList.cpp:insertItemBefore",
+        "../../third_party/WebKit/Source/modules/mediasource/SourceBuffer.cpp:abort",
+        "../../third_party/WebKit/Source/core/svg/SVGTextContentElement.cpp:getEndPositionOfChar",
+        "../../third_party/WebKit/Source/modules/peerconnection/RTCPeerConnection.cpp:updateIce",
+        "../../third_party/WebKit/Source/modules/screen_orientation/ScreenOrientation.cpp:lock",
+        "../../third_party/WebKit/Source/core/html/track/vtt/VTTCue.cpp:getCueAsHTML",
+        "../../third_party/WebKit/Source/modules/webaudio/BaseAudioContext.cpp:createBuffer",
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:getLineDash",
+        "../../third_party/WebKit/Source/core/html/HTMLTableSectionElement.cpp:deleteRow",
+        "../../third_party/WebKit/Source/core/events/Event.cpp:stopImmediatePropagation",
+        "../../third_party/WebKit/Source/core/dom/ParentNode.h:querySelectorAll",
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:setAttributeNodeNS",
+        "../../v8/src/inspector/v8-console.cc:assertCallback",
+        "../../third_party/WebKit/Source/core/dom/DOMMatrixReadOnly.cpp:toFloat64Array",
+        "../../third_party/WebKit/Source/core/dom/Node.cpp:lookupNamespaceURI",
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:selectedStyleSheetSet",
+        "../../third_party/WebKit/Source/modules/filesystem/DOMFileSystemBase.cpp:getMetadata",
+        "../../third_party/WebKit/Source/core/dom/DOMMatrix.cpp:preMultiplySelf",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:toolbar",
+        "../../third_party/WebKit/Source/modules/webaudio/BaseAudioContext.cpp:createPeriodicWave",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:stencilOpSeparate",
+        "../../third_party/WebKit/Source/core/frame/External.h:AddSearchProvider",
+        "../../third_party/WebKit/Source/modules/webaudio/BaseAudioContext.cpp:createWaveShaper",
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:removeAttributeNode",
+        "../../third_party/WebKit/Source/modules/mediasource/HTMLVideoElementMediaSource.cpp:getVideoPlaybackQuality",
+        "../../third_party/WebKit/Source/modules/canvas2d/CanvasPattern.cpp:setTransform",
+        "../../third_party/WebKit/Source/core/svg/SVGStringList.cpp:removeItem",
+        "../../third_party/WebKit/Source/core/dom/URLSearchParams.cpp:append",
+        "../../third_party/WebKit/Source/core/frame/History.cpp:pushState",
+        "../../v8/src/inspector/v8-console.cc:errorCallback",
+        "../../third_party/WebKit/Source/core/svg/SVGGraphicsElement.cpp:getBBox",
+        "../../third_party/WebKit/Source/modules/navigatorcontentutils/NavigatorContentUtils.cpp:registerProtocolHandler",
+        "../../third_party/WebKit/Source/modules/webaudio/BaseAudioContext.cpp:createConvolver",
+        "../../third_party/WebKit/Source/core/frame/External.h:IsSearchProviderInstalled",
+        "../../third_party/WebKit/Source/core/editing/DOMSelection.cpp:addRange",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:stencilMask",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:vertexAttrib2f",
+        "../../third_party/WebKit/Source/core/dom/ContainerNode.cpp:getElementsByName",
+        "../../third_party/WebKit/Source/modules/encryptedmedia/MediaKeys.cpp:setServerCertificate",
+        "../../third_party/WebKit/Source/core/html/HTMLButtonElement.cpp:checkValidity",
+        "../../third_party/WebKit/Source/core/dom/Range.cpp:setStartAfter",
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:scrollTo",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:deleteRenderbuffer",
+        "../../third_party/WebKit/Source/core/frame/DOMWindow.h:frames",
+        "../../third_party/WebKit/Source/modules/storage/StorageEvent.cpp:initStorageEvent",
+        "../../third_party/WebKit/Source/core/svg/SVGGeometryElement.cpp:getPointAtLength",
+        "../../third_party/WebKit/Source/core/dom/ParentNode.h:firstElementChild",
+        "../../third_party/WebKit/Source/core/svg/SVGSVGElement.cpp:forceRedraw",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:stop",
+        "../../third_party/WebKit/Source/core/dom/URLSearchParams.cpp:has",
+        "../../third_party/WebKit/Source/modules/webaudio/AudioParam.cpp:setValueCurveAtTime",
+        "../../third_party/WebKit/Source/core/svg/SVGAngleTearOff.cpp:convertToSpecifiedUnits",
+        "../../third_party/WebKit/Source/core/dom/Range.cpp:surroundContents",
+        "../../third_party/WebKit/Source/core/fileapi/FileReader.cpp:readAsDataURL",
+        "../../third_party/WebKit/Source/core/html/FormData.cpp:set",
+        "../../third_party/WebKit/Source/core/dom/DocumentFullscreen.cpp:FullScreenElement",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:navigator",
+        "../../third_party/WebKit/Source/core/dom/Range.cpp:selectNode",
+        "../../third_party/WebKit/Source/core/html/HTMLInputElement.cpp:IsTextField",
+        "../../third_party/WebKit/Source/modules/fetch/Headers.cpp:getAll",
+        "../../third_party/skia/experimental/SkV8Example/Path2D.cpp:addPath",
+        "../../third_party/WebKit/Source/core/css/MediaList.cpp:appendMedium",
+        "../../third_party/WebKit/Source/core/dom/DOMTokenList.cpp:item",
+        "../../third_party/WebKit/Source/core/html/FormData.cpp:getAll",
+        "../../third_party/WebKit/Source/core/dom/Node.cpp:lookupPrefix",
+        "../../third_party/WebKit/Source/core/dom/TreeWalker.cpp:firstChild",
+        "../../third_party/WebKit/Source/modules/storage/Storage.cpp:getItem",
+        "../../third_party/WebKit/Source/modules/vibration/NavigatorVibration.cpp:vibrate",
+        "../../third_party/WebKit/Source/core/css/CSSRuleList.cpp:item",
+        "../../third_party/WebKit/Source/core/svg/SVGStringList.cpp:appendItem",
+        "../../third_party/WebKit/Source/core/xml/XPathResult.cpp:snapshotItem",
+        "../../third_party/WebKit/Source/core/events/KeyboardEvent.cpp:getModifierState",
+        "../../third_party/WebKit/Source/modules/mediastream/MediaStream.h:getVideoTracks",
+        "../../third_party/WebKit/Source/core/css/MediaList.cpp:item",
+        "../../third_party/WebKit/Source/core/dom/Document.h:url",
+        "../../third_party/WebKit/Source/core/html/HTMLSelectElement.cpp:namedItem",
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:queryCommandValue",
+        "../../third_party/WebKit/Source/modules/screen_orientation/ScreenOrientation.cpp:unlock",
+        "../../third_party/WebKit/Source/core/html/FormData.cpp:get",
+        "../../third_party/WebKit/Source/core/svg/properties/SVGListPropertyHelper.h:replaceItem",
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBObjectStore.cpp:GetAll",
+        "../../third_party/WebKit/Source/core/svg/SVGStringListTearOff.cpp:removeItem",
+        "../../third_party/WebKit/Source/core/clipboard/DataTransfer.cpp:getData",
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBCursor.cpp:continue",
+        "../../third_party/WebKit/Source/core/svg/SVGStringListTearOff.cpp:initialize",
+        "../../third_party/WebKit/Source/core/svg/SVGAnimationElement.cpp:beginElementAt",
+        "../../third_party/WebKit/Source/modules/webaudio/AnalyserNode.cpp:getFloatTimeDomainData",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:screen",
+        "../../third_party/WebKit/Source/core/svg/SVGAnimationElement.cpp:getStartTime",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:matchMedia",
+        "../../third_party/WebKit/Source/modules/plugins/NavigatorPlugins.cpp:plugins",
+        "../../v8/src/inspector/v8-console.cc:timelineEndCallback",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:bindAttribLocation",
+        "../../third_party/WebKit/Source/modules/webaudio/BaseAudioContext.cpp:createAnalyser",
+        "../../third_party/WebKit/Source/modules/encryptedmedia/MediaKeySession.cpp:close",
+        "../../third_party/WebKit/Source/core/svg/SVGAnimationElement.cpp:getSimpleDuration",
+        "../../third_party/WebKit/Source/core/frame/NavigatorID.h:userAgent",
+        "../../third_party/WebKit/Source/core/frame/DOMWindow.h:pageYOffset",
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:queryCommandState",
+        "../../third_party/WebKit/Source/core/svg/properties/SVGListPropertyTearOffHelper.h:initialize",
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:prompt",
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:createCDATASection",
+        "../../third_party/WebKit/Source/modules/fetch/Headers.cpp:set",
+        "../../third_party/WebKit/Source/modules/webaudio/OfflineAudioContext.cpp:startRendering",
+        "../../third_party/WebKit/Source/core/dom/Range.cpp:createContextualFragment",
+        "../../third_party/WebKit/Source/modules/encryptedmedia/NavigatorRequestMediaKeySystemAccess.cpp:requestMediaKeySystemAccess",
+        "../../third_party/WebKit/Source/modules/storage/DOMWindowStorage.cpp:localStorage",
+        "../../third_party/WebKit/Source/core/html/HTMLInputElement.cpp:stepDown",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:isShader",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:vertexAttrib3fv",
+        "../../v8/src/inspector/v8-console.cc:warnCallback",
+        "../../third_party/WebKit/Source/core/dom/DOMMatrixReadOnly.cpp:flipY",
+        "../../third_party/WebKit/Source/core/html/HTMLDocument.cpp:captureEvents",
+        "../../third_party/WebKit/Source/core/svg/SVGTransformTearOff.cpp:setMatrix",
+        "../../v8/src/inspector/v8-console.cc:countCallback",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:clearStencil",
+        "../../third_party/WebKit/Source/core/frame/DOMWindow.cpp:close",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:personalbar",
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:preferredStyleSheetSet",
+        "../../third_party/WebKit/Source/core/dom/TreeWalker.cpp:parentNode",
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:queryCommandEnabled",
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:elementFromPoint",
+        "../../third_party/WebKit/Source/modules/peerconnection/RTCPeerConnection.cpp:setRemoteDescription",
+        "../../v8/src/inspector/v8-console.cc:logCallback",
+        "../../third_party/WebKit/Source/core/dom/shadow/InsertionPoint.cpp:getDistributedNodes",
+        "../../third_party/WebKit/Source/modules/peerconnection/RTCPeerConnection.cpp:createAnswer",
+        "../../third_party/WebKit/Source/core/svg/SVGAngleTearOff.cpp:newValueSpecifiedUnits",
+        "../../third_party/WebKit/Source/core/dom/Range.cpp:setEndBefore",
+        "../../third_party/WebKit/Source/core/html/HTMLInputElement.cpp:setRangeText",
+        "../../third_party/WebKit/Source/core/xml/XSLTProcessor.cpp:reset",
+        "../../third_party/WebKit/Source/core/xml/XSLTProcessor.cpp:setParameter",
+        "../../third_party/WebKit/Source/modules/encryptedmedia/MediaKeySession.cpp:generateRequest",
+        "../../third_party/WebKit/Source/core/dom/DOMMatrix.cpp:multiplySelf",
+        "../../third_party/WebKit/Source/core/svg/SVGAnimationElement.cpp:getCurrentTime",
+        "../../third_party/WebKit/Source/modules/webaudio/BaseAudioContext.cpp:createGain",
+        "../../third_party/WebKit/Source/core/css/PropertySetCSSStyleDeclaration.cpp:item",
+        "../../v8/src/inspector/v8-console.cc:timeStampCallback",
+        "../../third_party/WebKit/Source/core/svg/SVGStringList.cpp:initialize",
+        "../../third_party/WebKit/Source/core/svg/properties/SVGListPropertyTearOffHelper.h:replaceItem",
+        "../../third_party/WebKit/Source/modules/webaudio/BaseAudioContext.cpp:createChannelMerger",
+        "../../third_party/WebKit/Source/modules/webaudio/AnalyserNode.cpp:getByteTimeDomainData",
+        "../../third_party/WebKit/Source/modules/gamepad/NavigatorGamepad.cpp:getGamepads",
+        "../../third_party/WebKit/Source/core/html/track/TextTrack.cpp:addCue",
+        "../../third_party/WebKit/Source/core/svg/SVGPathElement.cpp:getPathSegAtLength",
+        "../../third_party/WebKit/Source/modules/encryptedmedia/MediaKeySession.cpp:remove",
+        "../../third_party/WebKit/Source/core/fileapi/FileReader.cpp:readAsBinaryString",
+        "../../third_party/WebKit/Source/core/svg/SVGAnimationElement.cpp:endElementAt",
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBCursor.cpp:update",
+        "../../third_party/WebKit/Source/core/svg/SVGStringListTearOff.cpp:clear",
+        "../../third_party/WebKit/Source/core/svg/SVGSVGElement.cpp:getCurrentTime",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:outerHeight",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:isBuffer",
+        "../../third_party/WebKit/Source/core/html/HTMLInputElement.cpp:stepUp",
+        "../../third_party/WebKit/Source/modules/cachestorage/Cache.cpp:addAll",
+        "../../third_party/WebKit/Source/modules/mediarecorder/MediaRecorder.cpp:requestData",
+        "../../third_party/WebKit/Source/modules/webaudio/AudioBufferSourceNode.cpp:stop",
+        "../../third_party/WebKit/Source/core/html/track/TextTrackCueList.cpp:getCueById",
+        "../../third_party/WebKit/Source/modules/webaudio/AnalyserNode.cpp:getByteFrequencyData",
+        "../../third_party/WebKit/Source/core/editing/DOMSelection.cpp:deleteFromDocument",
+        "../../third_party/WebKit/Source/core/events/MutationEvent.cpp:initMutationEvent",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:checkFramebufferStatus",
+        "../../third_party/WebKit/Source/core/fileapi/FileList.cpp:item",
+        "../../third_party/WebKit/Source/modules/storage/Storage.cpp:clear",
+        "../../third_party/WebKit/Source/core/xml/XPathExpression.cpp:evaluate",
+        "../../third_party/WebKit/Source/core/dom/TreeScope.cpp:getSelection",
+        "../../third_party/WebKit/Source/core/frame/DOMWindow.h:window",
+        "../../third_party/WebKit/Source/core/html/HTMLIFrameElement.cpp:getSVGDocument",
+        "../../third_party/WebKit/Source/core/dom/URLSearchParams.cpp:set",
+        "../../third_party/WebKit/Source/core/html/HTMLTableElement.cpp:createTBody",
+        "../../third_party/WebKit/Source/core/svg/properties/SVGListPropertyHelper.h:getItem",
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBKeyRange.cpp:upperBound",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:uniform2i",
+        "../../third_party/WebKit/Source/core/css/CSSComputedStyleDeclaration.cpp:getPropertyCSSValue",
+        "../../third_party/WebKit/Source/core/html/HTMLTextAreaElement.cpp:setCustomValidity",
+        "../../third_party/WebKit/Source/modules/encryptedmedia/MediaKeySession.cpp:load",
+        "../../third_party/WebKit/Source/core/svg/SVGStringListTearOff.h:insertItemBefore",
+        "../../third_party/WebKit/Source/core/xml/XPathEvaluator.cpp:createNSResolver",
+        "../../third_party/WebKit/Source/core/html/HTMLOutputElement.cpp:setCustomValidity",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:scissor",
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:createImageData",
+        "../../third_party/WebKit/Source/core/html/HTMLDocument.cpp:clear",
+        "../../third_party/WebKit/Source/core/svg/SVGMarkerElement.cpp:setOrientToAngle",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:name",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:innerHeight",
+        "../../third_party/WebKit/Source/core/svg/SVGTransformListTearOff.cpp:consolidate",
+        "../../third_party/WebKit/Source/core/dom/TreeWalker.cpp:previousNode",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:blendColor",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:vertexAttrib4fv",
+        "../../third_party/WebKit/Source/core/xml/XMLSerializer.cpp:serializeToString",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:bufferSubData",
+        "../../third_party/WebKit/Source/core/svg/SVGStringListTearOff.cpp:replaceItem",
+        "../../third_party/WebKit/Source/modules/mediastream/MediaStream.h:getAudioTracks",
+        "../../third_party/WebKit/Source/core/editing/DOMSelection.cpp:collapseToStart",
+        "../../third_party/WebKit/Source/modules/webaudio/AudioBufferSourceNode.cpp:start",
+        "../../third_party/WebKit/Source/core/dom/NodeIterator.cpp:nextNode",
+        "../../third_party/WebKit/Source/modules/fetch/Request.cpp:clone",
+        "../../third_party/WebKit/Source/modules/peerconnection/RTCDataChannel.cpp:send",
+        "../../third_party/WebKit/Source/core/events/Event.cpp:stopPropagation",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:getAttachedShaders",
+        "../../third_party/webrtc/api/peerconnection.cc:getSenders",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:stencilMaskSeparate",
+        "../../third_party/WebKit/Source/modules/mediarecorder/MediaRecorder.cpp:resume",
+        "../../v8/src/inspector/v8-console.cc:infoCallback",
+        "../../third_party/WebKit/Source/core/dom/DOMMatrix.cpp:scaleSelf",
+        "../../third_party/WebKit/Source/modules/encryptedmedia/HTMLMediaElementEncryptedMedia.cpp:setMediaKeys",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:scrollBy",
+        "../../third_party/WebKit/Source/modules/storage/Storage.cpp:key",
+        "../../third_party/WebKit/Source/modules/peerconnection/RTCPeerConnection.cpp:addIceCandidate",
+        "../../third_party/WebKit/Source/core/html/HTMLDocument.cpp:releaseEvents",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:copyTexSubImage2D",
+        "../../third_party/WebKit/Source/core/html/HTMLOutputElement.cpp:checkValidity",
+        "../../third_party/WebKit/Source/core/dom/DOMMatrix.cpp:setMatrixValue",
+        "../../third_party/WebKit/Source/core/svg/SVGSVGElement.cpp:deselectAll",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:document",
+        "../../third_party/WebKit/Source/core/html/HTMLTableElement.cpp:deleteTFoot",
+        "../../third_party/WebKit/Source/core/dom/DOMMatrixReadOnly.cpp:scale3d",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:vertexAttrib1f",
+        "../../third_party/WebKit/Source/modules/geolocation/Geolocation.cpp:clearWatch",
+        "../../third_party/WebKit/Source/modules/peerconnection/RTCPeerConnection.cpp:getStats",
+        "../../third_party/WebKit/Source/core/html/HTMLOptionsCollection.cpp:add",
+        "../../v8/src/inspector/v8-console.cc:dirCallback",
+        "../../third_party/WebKit/Source/core/xml/XPathEvaluator.cpp:evaluate",
+        "../../third_party/WebKit/Source/modules/webaudio/BaseAudioContext.cpp:createMediaStreamDestination",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:sampleCoverage",
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:createTreeWalker",
+        "../../third_party/WebKit/Source/modules/broadcastchannel/BroadcastChannel.cpp:close",
+        "../../third_party/WebKit/Source/core/svg/SVGTextContentElement.cpp:getSubStringLength",
+        "../../third_party/WebKit/Source/core/events/KeyboardEvent.cpp:initKeyboardEvent",
+        "../../third_party/WebKit/Source/modules/peerconnection/RTCPeerConnection.cpp:getRemoteStreams",
+        "../../third_party/WebKit/Source/core/svg/SVGGraphicsElement.cpp:getCTM",
+        "../../third_party/WebKit/Source/modules/mediasource/MediaSource.cpp:removeSourceBuffer",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:compressedTexSubImage2D",
+        "../../third_party/WebKit/Source/core/svg/SVGTextContentElement.cpp:selectSubString",
+        "../../third_party/WebKit/Source/core/svg/SVGTextContentElement.cpp:getRotationOfChar",
+        "../../third_party/WebKit/Source/modules/webaudio/AudioListener.cpp:setPosition",
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:createNodeIterator",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:deleteShader",
+        "../../third_party/WebKit/Source/core/xml/DocumentXPathEvaluator.cpp:createNSResolver",
+        "../../third_party/WebKit/Source/core/svg/SVGStringListTearOff.cpp:appendItem",
+        "../../third_party/webrtc/api/peerconnection.cc:getReceivers",
+        "../../third_party/WebKit/Source/core/svg/SVGSVGElement.cpp:createSVGTransform",
+        "../../third_party/WebKit/Source/core/svg/SVGTransformTearOff.cpp:setSkewX",
+        "../../third_party/WebKit/Source/modules/webaudio/OscillatorNode.cpp:start",
+        "../../third_party/WebKit/Source/modules/mediacapturefromelement/HTMLMediaElementCapture.cpp:CaptureStream",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:scrollTo",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:disableVertexAttribArray",
+        "../../third_party/WebKit/Source/core/svg/properties/SVGListPropertyTearOffHelper.h:clear",
+        "../../third_party/WebKit/Source/core/dom/Range.cpp:comparePoint",
+        "../../third_party/WebKit/Source/modules/device_orientation/DeviceMotionEvent.cpp:initDeviceMotionEvent",
+        "../../third_party/WebKit/Source/core/svg/SVGTextContentElement.cpp:getExtentOfChar",
+        "../../third_party/WebKit/Source/modules/peerconnection/RTCPeerConnection.cpp:getLocalStreams",
+        "../../v8/src/inspector/v8-console.cc:dirxmlCallback",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:uniform4iv",
+        "../../third_party/WebKit/Source/modules/crypto/SubtleCrypto.cpp:verify",
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:scrollIntoView",
+        "../../third_party/WebKit/Source/core/dom/DOMMatrix.cpp:skewYSelf",
+        "../../third_party/WebKit/Source/modules/canvas2d/CanvasRenderingContext2D.cpp:isPointInStroke",
+        "../../third_party/WebKit/Source/core/svg/SVGMatrixTearOff.cpp:scale",
+        "../../third_party/WebKit/Source/modules/canvas2d/CanvasRenderingContext2D.cpp:drawFocusIfNeeded",
+        "../../third_party/WebKit/Source/core/html/HTMLFormElement.cpp:checkValidity",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:uniformMatrix2fv",
+        "../../third_party/WebKit/Source/core/events/CompositionEvent.cpp:initCompositionEvent",
+        "../../v8/src/inspector/v8-console.cc:markTimelineCallback",
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBCursor.cpp:advance",
+        "../../third_party/WebKit/Source/core/dom/Document.h:documentElement",
+        "../../third_party/WebKit/Source/core/dom/TreeWalker.cpp:lastChild",
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBIndex.cpp:GetAllKeys",
+        "../../third_party/WebKit/Source/core/dom/TreeWalker.cpp:nextSibling",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:uniform4fv",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:cullFace",
+        "../../third_party/WebKit/Source/modules/mediacapturefromelement/CanvasCaptureMediaStreamTrack.cpp:requestFrame",
+        "../../third_party/WebKit/Source/modules/mediarecorder/MediaRecorder.cpp:pause",
+        "../../third_party/WebKit/Source/modules/webaudio/PannerNode.cpp:setOrientation",
+        "../../third_party/WebKit/Source/core/html/HTMLTableElement.cpp:deleteRow",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:menubar",
+        "../../third_party/WebKit/Source/core/dom/DOMImplementation.cpp:hasFeature",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:polygonOffset",
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:moveBy",
+        "../../third_party/WebKit/Source/core/clipboard/DataTransfer.cpp:clearData",
+        "../../third_party/WebKit/Source/core/svg/SVGSVGElement.cpp:createSVGAngle",
+        "../../third_party/WebKit/Source/core/frame/History.cpp:forward",
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBIndex.cpp:openKeyCursor",
+        "../../third_party/WebKit/Source/core/dom/URLSearchParams.cpp:getAll",
+        "../../third_party/WebKit/Source/core/svg/SVGMatrixTearOff.cpp:rotateFromVector",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:getShaderInfoLog",
+        "../../v8/src/inspector/v8-console.cc:profileEndCallback",
+        "../../third_party/WebKit/Source/core/dom/DOMMatrixReadOnly.cpp:rotateFromVector",
+        "../../third_party/WebKit/Source/core/svg/SVGMatrixTearOff.cpp:translate",
+        "../../third_party/WebKit/Source/core/xml/XSLTProcessor.cpp:transformToDocument",
+        "../../third_party/WebKit/Source/core/fileapi/FileReader.cpp:readAsText",
+        "../../third_party/WebKit/Source/core/svg/properties/SVGListPropertyTearOffHelper.h:insertItemBefore",
+        "../../third_party/WebKit/Source/core/dom/DOMMatrixReadOnly.cpp:skewY",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:deleteFramebuffer",
+        "../../third_party/WebKit/Source/core/dom/Range.cpp:setEndAfter",
+        "../../third_party/WebKit/Source/core/css/CSSComputedStyleDeclaration.cpp:setProperty",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:uniform3f",
+        "../../third_party/WebKit/Source/modules/encryptedmedia/MediaKeySystemAccess.cpp:getConfiguration",
+        "../../third_party/WebKit/Source/core/fileapi/FileReader.cpp:abort",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:uniform3i",
+        "../../third_party/WebKit/Source/modules/notifications/Notification.cpp:close",
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBObjectStore.cpp:clear",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:prompt",
+        "../../third_party/WebKit/Source/core/dom/DOMMatrixReadOnly.cpp:rotate",
+        "../../third_party/WebKit/Source/core/html/HTMLFieldSetElement.cpp:setCustomValidity",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:texParameterf",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:getBufferParameter",
+        "../../v8/src/inspector/v8-console.cc:groupCollapsedCallback",
+        "../../v8/src/inspector/v8-console.cc:groupEndCallback",
+        "../../third_party/WebKit/Source/core/svg/SVGStringListTearOff.cpp:getItem",
+        "../../third_party/WebKit/Source/modules/webaudio/BiquadFilterNode.cpp:getFrequencyResponse",
+        "../../third_party/WebKit/Source/core/dom/NodeIterator.cpp:previousNode",
+        "../../third_party/WebKit/Source/core/svg/properties/SVGListPropertyHelper.h:appendItem",
+        "../../third_party/WebKit/Source/modules/cachestorage/Cache.cpp:delete",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:statusbar",
+        "../../third_party/WebKit/Source/modules/fetch/Response.cpp:error",
+        "../../third_party/WebKit/Source/core/editing/DOMSelection.cpp:containsNode",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:uniform4f",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:clearDepth",
+        "../../third_party/WebKit/Source/modules/mediarecorder/MediaRecorder.cpp:stop",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:uniform4i",
+        "../../third_party/WebKit/Source/core/svg/SVGLengthTearOff.cpp:newValueSpecifiedUnits",
+        "../../third_party/WebKit/Source/core/svg/properties/SVGListPropertyHelper.h:initialize",
+        "../../third_party/WebKit/Source/modules/webaudio/BaseAudioContext.cpp:createPanner",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:resizeTo",
+        "../../third_party/WebKit/Source/modules/canvas2d/CanvasRenderingContext2D.cpp:isPointInPath",
+        "../../third_party/WebKit/Source/modules/webaudio/OfflineAudioContext.cpp:resumeContext",
+        "../../third_party/WebKit/Source/modules/cachestorage/CacheStorage.cpp:delete",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:blendEquationSeparate",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:compressedTexImage2D",
+        "../../third_party/WebKit/Source/core/svg/SVGTransformListTearOff.cpp:createSVGTransformFromMatrix",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:frontFace",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:isFramebuffer",
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBObjectStore.cpp:delete",
+        "../../third_party/WebKit/Source/core/html/HTMLInputElement.cpp:setCustomValidity",
+        "../../third_party/WebKit/Source/modules/peerconnection/RTCPeerConnection.cpp:removeStream",
+        "../../third_party/WebKit/Source/modules/webaudio/BaseAudioContext.cpp:createMediaElementSource",
+        "../../third_party/WebKit/Source/modules/cachestorage/Cache.cpp:match",
+        "../../third_party/WebKit/Source/core/xml/XSLTProcessor.cpp:transformToFragment",
+        "../../third_party/WebKit/Source/core/dom/NamedNodeMap.cpp:removeNamedItemNS",
+        "../../third_party/WebKit/Source/core/svg/SVGTextContentElement.cpp:getStartPositionOfChar",
+        "../../v8/src/inspector/v8-console.cc:profileCallback",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:stencilFuncSeparate",
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBCursor.cpp:delete",
+        "../../third_party/WebKit/Source/modules/webaudio/BaseAudioContext.cpp:createBufferSource",
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBFactory.cpp:cmp",
+        "../../third_party/WebKit/Source/core/dom/Range.cpp:cloneRange",
+        "../../third_party/WebKit/Source/modules/mediarecorder/MediaRecorder.cpp:start",
+        "../../third_party/WebKit/Source/core/svg/SVGSVGElement.cpp:suspendRedraw",
+        "../../third_party/WebKit/Source/modules/fetch/Body.cpp:arrayBuffer",
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:scroll",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:uniform2iv",
+        "../../third_party/WebKit/Source/core/frame/DOMWindow.h:scroll",
+        "../../third_party/WebKit/Source/core/svg/SVGSVGElement.cpp:createSVGPoint",
+        "../../third_party/WebKit/Source/core/frame/History.cpp:replaceState",
+        "../../third_party/WebKit/Source/core/frame/NavigatorOnLine.h:onLine",
+        "../../third_party/WebKit/Source/core/dom/Document.h:domWindow",
+        "../../third_party/WebKit/Source/core/frame/DOMWindow.h:captureEvents",
+        "../../third_party/WebKit/Source/modules/cachestorage/Cache.cpp:matchAll",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:isProgram",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:getComputedStyle",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:devicePixelRatio",
+        "../../third_party/WebKit/Source/core/html/HTMLInputElement.cpp:checkValidity",
+        "../../third_party/WebKit/Source/core/dom/DOMStringList.cpp:item",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:isTexture",
+        "../../third_party/WebKit/Source/core/dom/ParentNode.h:childElementCount",
+        "../../third_party/WebKit/Source/core/html/HTMLTextAreaElement.cpp:setSelectionRange",
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBKeyRange.cpp:only",
+        "../../third_party/WebKit/Source/core/svg/SVGTextContentElement.cpp:getNumberOfChars",
+        "../../third_party/WebKit/Source/core/dom/NamedNodeMap.cpp:setNamedItem",
+        "../../third_party/WebKit/Source/core/svg/SVGSVGElement.cpp:createSVGNumber",
+        "../../third_party/WebKit/Source/core/html/HTMLTextAreaElement.cpp:select",
+        "../../third_party/WebKit/Source/core/editing/DOMSelection.cpp:collapseToEnd",
+        "../../third_party/WebKit/Source/core/html/HTMLInputElement.cpp:select",
+        "../../third_party/WebKit/Source/core/svg/SVGTransformTearOff.cpp:setSkewY",
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:blur",
+        "../../third_party/WebKit/Source/core/dom/DOMMatrix.cpp:rotateSelf",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:getFramebufferAttachmentParameter",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:confirm",
+        "../../third_party/WebKit/Source/core/html/HTMLTableElement.cpp:createTFoot",
+        "../../v8/src/inspector/v8-console.cc:clearCallback",
+        "../../third_party/WebKit/Source/core/svg/properties/SVGListPropertyTearOffHelper.h:appendItem",
+        "../../third_party/WebKit/Source/core/dom/DOMMatrix.cpp:scale3dSelf",
+        "../../third_party/WebKit/Source/core/dom/Document.h:title",
+        "../../third_party/WebKit/Source/core/css/CSSPrimitiveValue.h:getFloatValue",
+        "../../third_party/WebKit/Source/modules/broadcastchannel/BroadcastChannel.cpp:postMessage",
+        "../../third_party/WebKit/Source/modules/encryptedmedia/MediaKeySystemAccess.cpp:createMediaKeys",
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBKeyRange.cpp:bound",
+        "../../third_party/WebKit/Source/core/dom/Node.cpp:hasChildNodes",
+        "../../third_party/WebKit/Source/core/dom/DOMMatrix.cpp:translateSelf",
+        "../../third_party/WebKit/Source/core/svg/SVGSVGElement.cpp:createSVGTransformFromMatrix",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:print",
+        "../../third_party/WebKit/Source/core/svg/SVGAnimationElement.cpp:beginElement",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:detachShader",
+        "../../third_party/WebKit/Source/core/svg/SVGPointTearOff.cpp:matrixTransform",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:readPixels",
+        "../../third_party/WebKit/Source/core/dom/NamedNodeMap.cpp:removeNamedItem",
+        "../../v8/src/inspector/v8-console.cc:debugCallback",
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBDatabase.cpp:deleteObjectStore",
+        "../../v8/src/inspector/v8-console.cc:timeEndCallback",
+        "../../third_party/WebKit/Source/core/html/HTMLSelectElement.cpp:remove",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:innerWidth",
+        "../../third_party/WebKit/Source/modules/webaudio/BaseAudioContext.cpp:createBiquadFilter",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:getRenderbufferParameter",
+        "../../third_party/WebKit/Source/modules/webaudio/BaseAudioContext.cpp:decodeAudioData",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:history",
+        "../../third_party/WebKit/Source/core/svg/properties/SVGListPropertyHelper.h:insertItemBefore",
+        "../../third_party/WebKit/Source/core/html/HTMLElement.cpp:click",
+        "../../third_party/WebKit/Source/modules/cachestorage/CacheStorage.cpp:has",
+        "../../third_party/WebKit/Source/core/html/HTMLTableElement.cpp:createCaption",
+        "../../third_party/WebKit/Source/modules/cachestorage/Cache.cpp:add",
+        "../../third_party/WebKit/Source/modules/webaudio/BaseAudioContext.cpp:createChannelSplitter",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:locationbar",
+        "../../third_party/WebKit/Source/modules/fetch/Response.cpp:redirect",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:validateProgram",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:getSelection",
+        "../../third_party/WebKit/Source/core/svg/SVGStringList.cpp:replaceItem",
+        "../../third_party/WebKit/Source/core/svg/SVGMatrixTearOff.cpp:multiply",
+        "../../third_party/WebKit/Source/core/css/CSSComputedStyleDeclaration.cpp:getPropertyPriority",
+        "../../third_party/WebKit/Source/core/svg/properties/SVGListPropertyTearOffHelper.h:removeItem",
+        "../../third_party/WebKit/Source/modules/storage/DOMWindowStorage.cpp:sessionStorage",
+        "../../third_party/WebKit/Source/platform/mediastream/MediaStreamCenter.cpp:stopLocalMediaStream",
+        "../../third_party/WebKit/Source/modules/geolocation/Geolocation.cpp:watchPosition",
+        "../../third_party/WebKit/Source/core/dom/DOMImplementation.cpp:createDocumentType",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:uniformMatrix3fv",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:resizeBy",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:getVertexAttribOffset",
+        "../../third_party/WebKit/Source/core/dom/DOMMatrixReadOnly.cpp:inverse",
+        "../../third_party/WebKit/Source/core/svg/SVGStringList.cpp:getItem",
+        "../../third_party/WebKit/Source/core/dom/Range.cpp:setStartBefore",
+        "../../third_party/WebKit/Source/core/svg/SVGSVGElement.cpp:createSVGLength",
+        "../../third_party/WebKit/Source/modules/mediasource/MediaSource.cpp:endOfStream",
+        "../../v8/src/inspector/v8-console.cc:traceCallback",
+        "../../third_party/WebKit/Source/core/css/CSSValueList.h:item",
+        "../../third_party/WebKit/Source/modules/webaudio/AudioParam.cpp:exponentialRampToValueAtTime",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:getTexParameter",
+        "../../third_party/WebKit/Source/core/svg/SVGMatrixTearOff.cpp:rotate",
+        "../../third_party/WebKit/Source/modules/webaudio/AudioContext.cpp:suspendcontext",
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:queryCommandSupported",
+        "../../v8/src/inspector/v8-console.cc:timeCallback",
+        "../../third_party/WebKit/Source/core/dom/TreeWalker.cpp:nextNode",
+        "../../third_party/WebKit/Source/core/html/HTMLElement.cpp:focus",
+        "../../third_party/WebKit/Source/core/svg/SVGMatrixTearOff.cpp:flipY",
+        "../../third_party/WebKit/Source/modules/plugins/NavigatorPlugins.cpp:javaEnabled",
+        "../../third_party/WebKit/Source/modules/webaudio/BaseAudioContext.cpp:resume",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:screenY",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:screenX",
+        "../../third_party/WebKit/Source/core/svg/SVGTransformTearOff.cpp:setRotate",
+        "../../third_party/WebKit/Source/core/dom/DocumentOrShadowRoot.h:PointerLockElement",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:getUniform",
+        "../../third_party/WebKit/Source/modules/peerconnection/RTCPeerConnection.cpp:getStreamById",
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:stop",
+        "../../third_party/WebKit/Source/core/dom/NodeIterator.cpp:detach",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:isEnabled",
+        "../../third_party/WebKit/Source/core/dom/Range.cpp:insertNode",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:copyTexImage2D",
+        "../../third_party/WebKit/Source/core/svg/SVGSVGElement.cpp:unsuspendRedrawAll",
+        "../../third_party/WebKit/Source/core/svg/SVGMatrixTearOff.cpp:skewY",
+        "../../third_party/WebKit/Source/core/svg/SVGMatrixTearOff.cpp:skewX",
+        "../../third_party/WebKit/Source/core/css/MediaList.cpp:deleteMedium",
+        "../../third_party/WebKit/Source/core/imagebitmap/ImageBitmapFactories.cpp:createImageBitmap",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:vertexAttrib1fv",
+        "../../third_party/WebKit/Source/modules/canvas2d/CanvasPathMethods.cpp:arcTo",
+        "../../third_party/WebKit/Source/core/html/HTMLTableElement.cpp:deleteTHead",
+        "../../third_party/WebKit/Source/core/html/HTMLTextAreaElement.cpp:checkValidity",
+        "../../third_party/WebKit/Source/modules/webaudio/AudioBuffer.cpp:copyFromChannel",
+        "../../third_party/WebKit/Source/modules/cachestorage/Cache.cpp:keys",
+        "../../third_party/WebKit/Source/core/html/track/TextTrackList.cpp:getTrackById",
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBIndex.cpp:getAll",
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:hasAttributes",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:finish",
+        "../../third_party/WebKit/Source/modules/webaudio/AudioContext.cpp:close",
+        "../../third_party/WebKit/Source/core/html/HTMLObjectElement.cpp:setCustomValidity",
+        "../../third_party/WebKit/Source/core/dom/DOMMatrix.cpp:skewXSelf",
+        "../../third_party/WebKit/Source/core/dom/Range.cpp:intersectsNode",
+        "../../third_party/WebKit/Source/core/dom/Range.cpp:cloneContents",
+        "../../third_party/WebKit/Source/modules/eventsource/EventSource.cpp:close",
+        "../../third_party/WebKit/Source/core/html/HTMLObjectElement.cpp:checkValidity",
+        "../../third_party/WebKit/Source/core/html/HTMLSelectElement.cpp:setCustomValidity",
+        "../../v8/src/inspector/v8-console.cc:tableCallback",
+        "../../third_party/WebKit/Source/core/fileapi/FileReader.cpp:readAsArrayBuffer",
+        "../../third_party/webrtc/api/peerconnection.cc:removeTrack",
+        "../../third_party/WebKit/Source/core/html/HTMLTextAreaElement.cpp:setRangeText",
+        "../../third_party/WebKit/Source/modules/webaudio/PannerNode.cpp:setPosition",
+        "../../third_party/WebKit/Source/core/xml/XSLTProcessor.cpp:clearParameters",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:lineWidth",
+        "../../third_party/WebKit/Source/modules/webaudio/OscillatorNode.cpp:stop",
+        "../../third_party/WebKit/Source/core/frame/RemoteDOMWindow.cpp:alert",
+        "../../third_party/WebKit/Source/modules/cachestorage/GlobalCacheStorage.cpp:fetch",
+        "../../third_party/WebKit/Source/modules/mediastream/MediaStreamTrack.cpp:stop",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:flush",
+        "../../third_party/WebKit/Source/core/html/track/TextTrack.cpp:removeCue",
+        "../../third_party/WebKit/Source/modules/webaudio/AudioBuffer.cpp:copyToChannel",
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:createProcessingInstruction",
+        "../../third_party/WebKit/Source/core/dom/DOMMatrixReadOnly.cpp:multiply",
+        "../../third_party/WebKit/Source/core/html/HTMLTableElement.cpp:createTHead",
+        "../../third_party/WebKit/Source/core/dom/DOMMatrix.cpp:rotateAxisAngleSelf",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:isRenderbuffer",
+        "../../third_party/WebKit/Source/core/dom/Node.cpp:isDefaultNamespace",
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:vertexAttrib3f",
+        "../../third_party/WebKit/Source/core/editing/DOMSelection.cpp:removeAllRanges",
+        "../../third_party/WebKit/Source/core/svg/SVGSVGElement.cpp:createSVGRect",
+        "../../third_party/WebKit/Source/core/dom/ParentNode.h:querySelector",
+        "../../third_party/WebKit/Source/core/html/FormData.cpp:has",
+        "../../third_party/WebKit/Source/modules/peerconnection/RTCPeerConnection.cpp:addStream",
+        "../../third_party/WebKit/Source/core/clipboard/DataTransfer.cpp:setData"
+    ],
+    "funcrangewithext": {
+        "../../third_party/WebKit/Source/core/css/CSSComputedStyleDeclaration.cpp:getPropertyValue": [
+            4,
+            12736
+        ],
+        "../../third_party/WebKit/Source/core/css/CSSComputedStyleDeclaration.cpp:item": [
+            524,
+            524
+        ],
+        "../../third_party/WebKit/Source/core/css/CSSStyleSheet.cpp:deleteRule": [
+            1,
+            1
+        ],
+        "../../third_party/WebKit/Source/core/css/CSSStyleSheet.cpp:insertRule": [
+            2,
+            465
+        ],
+        "../../third_party/WebKit/Source/core/css/DOMWindowCSS.cpp:supports": [
+            1,
+            21
+        ],
+        "../../third_party/WebKit/Source/core/css/DocumentFontFaceSet.cpp:fonts": [
+            3,
+            24
+        ],
+        "../../third_party/WebKit/Source/core/css/FontFace.cpp:load": [
+            5,
+            6
+        ],
+        "../../third_party/WebKit/Source/core/css/FontFaceSet.cpp:load": [
+            2,
+            20
+        ],
+        "../../third_party/WebKit/Source/core/css/MediaQueryList.cpp:addListener": [
+            6,
+            6364
+        ],
+        "../../third_party/WebKit/Source/core/css/MediaQueryList.cpp:removeListener": [
+            28,
+            36
+        ],
+        "../../third_party/WebKit/Source/core/css/PropertySetCSSStyleDeclaration.cpp:getPropertyPriority": [
+            15,
+            15
+        ],
+        "../../third_party/WebKit/Source/core/css/PropertySetCSSStyleDeclaration.cpp:getPropertyValue": [
+            151,
+            151
+        ],
+        "../../third_party/WebKit/Source/core/css/PropertySetCSSStyleDeclaration.cpp:removeProperty": [
+            1,
+            20
+        ],
+        "../../third_party/WebKit/Source/core/css/PropertySetCSSStyleDeclaration.cpp:setProperty": [
+            1,
+            67
+        ],
+        "../../third_party/WebKit/Source/core/css/StyleSheetList.cpp:item": [
+            14,
+            874
+        ],
+        "../../third_party/WebKit/Source/core/dom/CharacterData.cpp:appendData": [
+            1,
+            13851
+        ],
+        "../../third_party/WebKit/Source/core/dom/CharacterData.cpp:deleteData": [
+            2,
+            2
+        ],
+        "../../third_party/WebKit/Source/core/dom/CharacterData.cpp:insertData": [
+            2,
+            6
+        ],
+        "../../third_party/WebKit/Source/core/dom/CharacterData.cpp:substringData": [
+            2,
+            2
+        ],
+        "../../third_party/WebKit/Source/core/dom/ClientRectList.cpp:item": [
+            354,
+            392
+        ],
+        "../../third_party/WebKit/Source/core/dom/ContainerNode.cpp:getElementsByClassName": [
+            3,
+            6685
+        ],
+        "../../third_party/WebKit/Source/core/dom/ContainerNode.cpp:getElementsByTagName": [
+            38,
+            3073
+        ],
+        "../../third_party/WebKit/Source/core/dom/ContainerNode.cpp:getElementsByTagNameNS": [
+            3,
+            179
+        ],
+        "../../third_party/WebKit/Source/core/dom/DOMImplementation.cpp:createDocument": [
+            6,
+            157
+        ],
+        "../../third_party/WebKit/Source/core/dom/DOMImplementation.cpp:createHTMLDocument": [
+            1,
+            8
+        ],
+        "../../third_party/WebKit/Source/core/dom/DOMStringList.cpp:contains": [
+            1,
+            5
+        ],
+        "../../third_party/WebKit/Source/core/dom/DOMTokenList.cpp:add": [
+            1,
+            2500
+        ],
+        "../../third_party/WebKit/Source/core/dom/DOMTokenList.cpp:contains": [
+            1,
+            2134
+        ],
+        "../../third_party/WebKit/Source/core/dom/DOMTokenList.cpp:remove": [
+            1,
+            740
+        ],
+        "../../third_party/WebKit/Source/core/dom/DOMTokenList.cpp:toggle": [
+            1,
+            27
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:activeElement": [
+            1,
+            1910
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:body": [
+            240,
+            54688
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:close": [
+            1,
+            27
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:compatMode": [
+            1,
+            4017
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:contentType": [
+            1,
+            24
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:cookie": [
+            1,
+            721
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:createAttribute": [
+            1,
+            21
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:createAttributeNS": [
+            1,
+            21
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:createComment": [
+            1,
+            477
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:createDocumentFragment": [
+            1,
+            1747
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:createElement": [
+            72,
+            67226
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:createElementNS": [
+            1,
+            377
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:createRange": [
+            2,
+            354
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:createTextNode": [
+            23,
+            4655
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:currentScriptForBinding": [
+            1,
+            152
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:dir": [
+            1,
+            7
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:domain": [
+            1,
+            147
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:embeds": [
+            1,
+            22
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:execCommand": [
+            1,
+            3
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:forms": [
+            8,
+            188
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:hasFocus": [
+            1,
+            131
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:head": [
+            12,
+            597
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:hidden": [
+            4,
+            1447
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:images": [
+            1,
+            89
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:implementation": [
+            1,
+            82
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:importNode": [
+            10361,
+            10361
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:lastModified": [
+            2,
+            23
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:location": [
+            16,
+            1539
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:open": [
+            1,
+            27
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:readyState": [
+            5,
+            266
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:referrer": [
+            1,
+            547
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:scripts": [
+            1,
+            516
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:styleSheets": [
+            1,
+            57
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:visibilityState": [
+            1,
+            134
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:write": [
+            2,
+            231
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:writeln": [
+            2,
+            28
+        ],
+        "../../third_party/WebKit/Source/core/dom/DocumentFullscreen.cpp:exitFullscreen": [
+            2,
+            2
+        ],
+        "../../third_party/WebKit/Source/core/dom/DocumentFullscreen.cpp:fullscreenEnabled": [
+            1,
+            17
+        ],
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:closest": [
+            3,
+            346
+        ],
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:getAttribute": [
+            1137,
+            301657
+        ],
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:getAttributeNode": [
+            1,
+            3023
+        ],
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:getBoundingClientRect": [
+            1,
+            9220
+        ],
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:getClientRects": [
+            1,
+            395
+        ],
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:hasAttribute": [
+            54,
+            43054
+        ],
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:hasAttributeNS": [
+            10,
+            5818
+        ],
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:insertAdjacentHTML": [
+            1,
+            60
+        ],
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:matches": [
+            2,
+            4631
+        ],
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:removeAttribute": [
+            1,
+            23666
+        ],
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:setAttribute": [
+            81,
+            25443
+        ],
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:setAttributeNS": [
+            1,
+            91
+        ],
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:setAttributeNode": [
+            1,
+            27
+        ],
+        "../../third_party/WebKit/Source/core/dom/MessagePort.cpp:close": [
+            2,
+            14
+        ],
+        "../../third_party/WebKit/Source/core/dom/MessagePort.cpp:postMessage": [
+            1,
+            56
+        ],
+        "../../third_party/WebKit/Source/core/dom/MessagePort.cpp:start": [
+            1,
+            15
+        ],
+        "../../third_party/WebKit/Source/core/dom/MutationObserver.cpp:disconnect": [
+            1,
+            31
+        ],
+        "../../third_party/WebKit/Source/core/dom/MutationObserver.cpp:observe": [
+            3,
+            298
+        ],
+        "../../third_party/WebKit/Source/core/dom/MutationObserver.cpp:takeRecords": [
+            13,
+            29151
+        ],
+        "../../third_party/WebKit/Source/core/dom/NamedNodeMap.cpp:getNamedItem": [
+            1,
+            1701
+        ],
+        "../../third_party/WebKit/Source/core/dom/NamedNodeMap.cpp:item": [
+            3,
+            8400
+        ],
+        "../../third_party/WebKit/Source/core/dom/Node.cpp:appendChild": [
+            10,
+            6316
+        ],
+        "../../third_party/WebKit/Source/core/dom/Node.cpp:compareDocumentPosition": [
+            11,
+            13702
+        ],
+        "../../third_party/WebKit/Source/core/dom/Node.cpp:contains": [
+            21,
+            109580
+        ],
+        "../../third_party/WebKit/Source/core/dom/Node.cpp:insertBefore": [
+            2,
+            1404
+        ],
+        "../../third_party/WebKit/Source/core/dom/Node.cpp:isEqualNode": [
+            2,
+            21
+        ],
+        "../../third_party/WebKit/Source/core/dom/Node.cpp:removeChild": [
+            1,
+            723
+        ],
+        "../../third_party/WebKit/Source/core/dom/Node.cpp:replaceChild": [
+            1,
+            575
+        ],
+        "../../third_party/WebKit/Source/core/dom/Range.cpp:collapse": [
+            1,
+            354
+        ],
+        "../../third_party/WebKit/Source/core/dom/Range.cpp:compareBoundaryPoints": [
+            2,
+            1416
+        ],
+        "../../third_party/WebKit/Source/core/dom/Range.cpp:getBoundingClientRect": [
+            4,
+            4
+        ],
+        "../../third_party/WebKit/Source/core/dom/Range.cpp:getClientRects": [
+            354,
+            354
+        ],
+        "../../third_party/WebKit/Source/core/dom/Range.cpp:isPointInRange": [
+            1,
+            1
+        ],
+        "../../third_party/WebKit/Source/core/dom/Range.cpp:selectNodeContents": [
+            3,
+            48
+        ],
+        "../../third_party/WebKit/Source/core/dom/Range.cpp:setEnd": [
+            1,
+            354
+        ],
+        "../../third_party/WebKit/Source/core/dom/Range.cpp:setStart": [
+            1,
+            354
+        ],
+        "../../third_party/WebKit/Source/core/dom/Text.cpp:splitText": [
+            3,
+            3
+        ],
+        "../../third_party/WebKit/Source/core/dom/TreeScope.cpp:getElementById": [
+            21,
+            5391
+        ],
+        "../../third_party/WebKit/Source/core/dom/URLSearchParams.cpp:get": [
+            1,
+            4
+        ],
+        "../../third_party/WebKit/Source/core/editing/DOMSelection.cpp:getRangeAt": [
+            4,
+            4
+        ],
+        "../../third_party/WebKit/Source/core/events/CustomEvent.cpp:initCustomEvent": [
+            1,
+            60
+        ],
+        "../../third_party/WebKit/Source/core/events/Event.cpp:initEvent": [
+            1,
+            556
+        ],
+        "../../third_party/WebKit/Source/core/events/Event.cpp:preventDefault": [
+            1,
+            220
+        ],
+        "../../third_party/WebKit/Source/core/events/EventTarget.cpp:addEventListener": [
+            150,
+            52332
+        ],
+        "../../third_party/WebKit/Source/core/events/EventTarget.cpp:dispatchEvent": [
+            469,
+            4772
+        ],
+        "../../third_party/WebKit/Source/core/events/EventTarget.cpp:removeEventListener": [
+            13,
+            2380
+        ],
+        "../../third_party/WebKit/Source/core/events/UIEvent.cpp:initUIEvent": [
+            1,
+            19
+        ],
+        "../../third_party/WebKit/Source/core/fileapi/URLFileAPI.cpp:createObjectURL": [
+            1,
+            6
+        ],
+        "../../third_party/WebKit/Source/core/fileapi/URLFileAPI.cpp:revokeObjectURL": [
+            1,
+            1
+        ],
+        "../../third_party/WebKit/Source/core/frame/DOMWindow.cpp:closed": [
+            1,
+            80
+        ],
+        "../../third_party/WebKit/Source/core/frame/DOMWindow.cpp:focus": [
+            1,
+            4
+        ],
+        "../../third_party/WebKit/Source/core/frame/DOMWindow.cpp:length": [
+            1,
+            6737
+        ],
+        "../../third_party/WebKit/Source/core/frame/DOMWindow.cpp:location": [
+            36,
+            8840
+        ],
+        "../../third_party/WebKit/Source/core/frame/DOMWindow.cpp:opener": [
+            1,
+            8488
+        ],
+        "../../third_party/WebKit/Source/core/frame/DOMWindow.cpp:parent": [
+            4,
+            551
+        ],
+        "../../third_party/WebKit/Source/core/frame/DOMWindow.cpp:postMessage": [
+            1,
+            114
+        ],
+        "../../third_party/WebKit/Source/core/frame/DOMWindow.cpp:self": [
+            49,
+            23386
+        ],
+        "../../third_party/WebKit/Source/core/frame/DOMWindow.cpp:top": [
+            2,
+            6220
+        ],
+        "../../third_party/WebKit/Source/core/frame/DOMWindowBase64.cpp:atob": [
+            1,
+            1272
+        ],
+        "../../third_party/WebKit/Source/core/frame/DOMWindowBase64.cpp:btoa": [
+            1,
+            81
+        ],
+        "../../third_party/WebKit/Source/core/frame/DOMWindowTimers.cpp:clearInterval": [
+            1,
+            523
+        ],
+        "../../third_party/WebKit/Source/core/frame/DOMWindowTimers.cpp:clearTimeout": [
+            5,
+            1532
+        ],
+        "../../third_party/WebKit/Source/core/frame/DOMWindowTimers.cpp:setInterval": [
+            1,
+            528
+        ],
+        "../../third_party/WebKit/Source/core/frame/DOMWindowTimers.cpp:setTimeout": [
+            86,
+            6915
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:alert": [
+            1,
+            1
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:applicationCache": [
+            1,
+            18
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:cancelAnimationFrame": [
+            2,
+            528
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:devicePixelRatio": [
+            1,
+            177
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:document": [
+            37298,
+            872741
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:frameConsole": [
+            31,
+            31
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:frameElement": [
+            1,
+            312
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:getComputedStyle": [
+            3,
+            8492
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:getSelection": [
+            1,
+            11
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:history": [
+            1,
+            139
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:innerHeight": [
+            1,
+            4554
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:innerWidth": [
+            1,
+            4344
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:locationbar": [
+            1,
+            18
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:matchMedia": [
+            1,
+            850
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:menubar": [
+            3,
+            18
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:name": [
+            1,
+            61
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:navigator": [
+            14,
+            1251
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:open": [
+            1,
+            1
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:outerHeight": [
+            1,
+            9
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:outerWidth": [
+            1,
+            31
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:personalbar": [
+            3,
+            18
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:requestAnimationFrame": [
+            2,
+            3874
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:screen": [
+            1,
+            402
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:screenX": [
+            1,
+            316
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:screenY": [
+            1,
+            162
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:scrollTo": [
+            1,
+            33
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:scrollX": [
+            1,
+            9338
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:scrollY": [
+            1,
+            9340
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:scrollbars": [
+            3,
+            18
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:statusbar": [
+            3,
+            18
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:toolbar": [
+            3,
+            18
+        ],
+        "../../third_party/WebKit/Source/core/frame/Location.cpp:assign": [
+            1,
+            1
+        ],
+        "../../third_party/WebKit/Source/core/frame/Location.cpp:href": [
+            4,
+            8287
+        ],
+        "../../third_party/WebKit/Source/core/frame/Location.cpp:reload": [
+            1,
+            1
+        ],
+        "../../third_party/WebKit/Source/core/frame/Location.cpp:replace": [
+            1,
+            2
+        ],
+        "../../third_party/WebKit/Source/core/frame/Navigator.cpp:languages": [
+            1,
+            8
+        ],
+        "../../third_party/WebKit/Source/core/frame/Navigator.cpp:vendorSub": [
+            4,
+            4
+        ],
+        "../../third_party/WebKit/Source/core/frame/NavigatorID.cpp:appCodeName": [
+            1,
+            7
+        ],
+        "../../third_party/WebKit/Source/core/frame/NavigatorID.cpp:appName": [
+            1,
+            20
+        ],
+        "../../third_party/WebKit/Source/core/frame/NavigatorID.cpp:appVersion": [
+            9,
+            345
+        ],
+        "../../third_party/WebKit/Source/core/frame/NavigatorID.cpp:platform": [
+            1,
+            111
+        ],
+        "../../third_party/WebKit/Source/core/frame/NavigatorID.cpp:product": [
+            1,
+            9
+        ],
+        "../../third_party/WebKit/Source/core/frame/NavigatorLanguage.cpp:language": [
+            1,
+            34
+        ],
+        "../../third_party/WebKit/Source/core/frame/Screen.cpp:availHeight": [
+            1,
+            58
+        ],
+        "../../third_party/WebKit/Source/core/frame/Screen.cpp:availLeft": [
+            1,
+            5
+        ],
+        "../../third_party/WebKit/Source/core/frame/Screen.cpp:availTop": [
+            1,
+            5
+        ],
+        "../../third_party/WebKit/Source/core/frame/Screen.cpp:availWidth": [
+            1,
+            58
+        ],
+        "../../third_party/WebKit/Source/core/frame/Screen.cpp:colorDepth": [
+            1,
+            48
+        ],
+        "../../third_party/WebKit/Source/core/frame/Screen.cpp:height": [
+            1,
+            56
+        ],
+        "../../third_party/WebKit/Source/core/frame/Screen.cpp:pixelDepth": [
+            1,
+            48
+        ],
+        "../../third_party/WebKit/Source/core/frame/Screen.cpp:width": [
+            1,
+            110
+        ],
+        "../../third_party/WebKit/Source/core/html/FormData.cpp:append": [
+            1,
+            36
+        ],
+        "../../third_party/WebKit/Source/core/html/HTMLCanvasElement.cpp:toDataURL": [
+            1,
+            16
+        ],
+        "../../third_party/WebKit/Source/core/html/HTMLCollection.cpp:item": [
+            604,
+            196564
+        ],
+        "../../third_party/WebKit/Source/core/html/HTMLCollection.cpp:namedItem": [
+            1,
+            3884
+        ],
+        "../../third_party/WebKit/Source/core/html/HTMLFormElement.cpp:item": [
+            1,
+            244
+        ],
+        "../../third_party/WebKit/Source/core/html/HTMLFormElement.cpp:reset": [
+            1,
+            2
+        ],
+        "../../third_party/WebKit/Source/core/html/HTMLFormElement.cpp:submit": [
+            1,
+            4
+        ],
+        "../../third_party/WebKit/Source/core/html/HTMLMediaElement.cpp:addTextTrack": [
+            1,
+            3
+        ],
+        "../../third_party/WebKit/Source/core/html/HTMLMediaElement.cpp:canPlayType": [
+            1,
+            88
+        ],
+        "../../third_party/WebKit/Source/core/html/HTMLMediaElement.cpp:load": [
+            1,
+            34
+        ],
+        "../../third_party/WebKit/Source/core/html/HTMLMediaElement.cpp:pause": [
+            1,
+            21
+        ],
+        "../../third_party/WebKit/Source/core/html/HTMLMediaElement.cpp:play": [
+            1,
+            11
+        ],
+        "../../third_party/WebKit/Source/core/html/HTMLSelectElement.cpp:item": [
+            1,
+            2
+        ],
+        "../../third_party/WebKit/Source/core/html/TimeRanges.cpp:end": [
+            37,
+            1591
+        ],
+        "../../third_party/WebKit/Source/core/html/TimeRanges.cpp:start": [
+            1,
+            386
+        ],
+        "../../third_party/WebKit/Source/core/svg/SVGGraphicsElement.cpp:getScreenCTM": [
+            468,
+            468
+        ],
+        "../../third_party/WebKit/Source/core/svg/SVGSVGElement.cpp:animationsPaused": [
+            1,
+            444
+        ],
+        "../../third_party/WebKit/Source/core/svg/SVGSVGElement.cpp:pauseAnimations": [
+            1,
+            858
+        ],
+        "../../third_party/WebKit/Source/core/svg/SVGSVGElement.cpp:unpauseAnimations": [
+            1,
+            11
+        ],
+        "../../third_party/WebKit/Source/core/timing/DOMWindowPerformance.cpp:performance": [
+            26,
+            15330
+        ],
+        "../../third_party/WebKit/Source/core/timing/Performance.cpp:navigation": [
+            1,
+            217
+        ],
+        "../../third_party/WebKit/Source/core/timing/Performance.cpp:timing": [
+            344,
+            16746
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceBase.cpp:clearMarks": [
+            4,
+            15
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceBase.cpp:clearMeasures": [
+            4,
+            6
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceBase.cpp:clearResourceTimings": [
+            1,
+            23
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceBase.cpp:getEntries": [
+            1,
+            387
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceBase.cpp:getEntriesByName": [
+            1,
+            100
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceBase.cpp:getEntriesByType": [
+            1,
+            66
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceBase.cpp:mark": [
+            1,
+            262
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceBase.cpp:measure": [
+            1,
+            104
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceBase.cpp:now": [
+            6,
+            36604
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceBase.cpp:setResourceTimingBufferSize": [
+            1,
+            10
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceNavigation.cpp:redirectCount": [
+            1,
+            10
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceNavigation.cpp:type": [
+            1,
+            111
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:connectEnd": [
+            1,
+            23
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:connectStart": [
+            1,
+            46
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:domComplete": [
+            1,
+            23
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:domContentLoadedEventEnd": [
+            1,
+            18
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:domContentLoadedEventStart": [
+            22,
+            708
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:domInteractive": [
+            1,
+            20
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:domLoading": [
+            1,
+            43
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:domainLookupEnd": [
+            1,
+            56
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:domainLookupStart": [
+            1,
+            68
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:fetchStart": [
+            1,
+            80
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:loadEventEnd": [
+            1,
+            39
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:loadEventStart": [
+            19,
+            680
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:navigationStart": [
+            17,
+            4060
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:redirectEnd": [
+            1,
+            9
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:redirectStart": [
+            1,
+            8
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:requestStart": [
+            1,
+            40
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:responseEnd": [
+            1,
+            28
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:responseStart": [
+            32,
+            1324
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:unloadEventEnd": [
+            1,
+            9
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:unloadEventStart": [
+            1,
+            9
+        ],
+        "../../third_party/WebKit/Source/core/workers/InProcessWorkerBase.cpp:postMessage": [
+            1,
+            25
+        ],
+        "../../third_party/WebKit/Source/core/workers/InProcessWorkerBase.cpp:terminate": [
+            2,
+            33
+        ],
+        "../../third_party/WebKit/Source/core/xml/DOMParser.cpp:parseFromString": [
+            1,
+            19
+        ],
+        "../../third_party/WebKit/Source/core/xml/DocumentXPathEvaluator.cpp:createExpression": [
+            4,
+            4
+        ],
+        "../../third_party/WebKit/Source/core/xml/XPathEvaluator.cpp:createExpression": [
+            4,
+            4
+        ],
+        "../../third_party/WebKit/Source/core/xmlhttprequest/XMLHttpRequest.cpp:abort": [
+            1,
+            10
+        ],
+        "../../third_party/WebKit/Source/core/xmlhttprequest/XMLHttpRequest.cpp:getAllResponseHeaders": [
+            1,
+            81
+        ],
+        "../../third_party/WebKit/Source/core/xmlhttprequest/XMLHttpRequest.cpp:getResponseHeader": [
+            1,
+            85
+        ],
+        "../../third_party/WebKit/Source/core/xmlhttprequest/XMLHttpRequest.cpp:open": [
+            4,
+            248
+        ],
+        "../../third_party/WebKit/Source/core/xmlhttprequest/XMLHttpRequest.cpp:overrideMimeType": [
+            1,
+            20
+        ],
+        "../../third_party/WebKit/Source/core/xmlhttprequest/XMLHttpRequest.cpp:send": [
+            4,
+            248
+        ],
+        "../../third_party/WebKit/Source/core/xmlhttprequest/XMLHttpRequest.cpp:setRequestHeader": [
+            1,
+            186
+        ],
+        "../../third_party/WebKit/Source/modules/battery/NavigatorBattery.cpp:getBattery": [
+            2,
+            8
+        ],
+        "../../third_party/WebKit/Source/modules/beacon/NavigatorBeacon.cpp:sendBeacon": [
+            2,
+            40
+        ],
+        "../../third_party/WebKit/Source/modules/cachestorage/Cache.cpp:put": [
+            7,
+            7
+        ],
+        "../../third_party/WebKit/Source/modules/cachestorage/CacheStorage.cpp:match": [
+            1,
+            32
+        ],
+        "../../third_party/WebKit/Source/modules/cachestorage/CacheStorage.cpp:open": [
+            7,
+            7
+        ],
+        "../../third_party/WebKit/Source/modules/canvas/HTMLCanvasElementModule.cpp:getContext": [
+            18,
+            541
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:beginPath": [
+            3,
+            20435
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:clearRect": [
+            16,
+            540
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:createLinearGradient": [
+            31,
+            63
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:createPattern": [
+            10,
+            10
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:createRadialGradient": [
+            96,
+            96
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:drawImage": [
+            36,
+            2076
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:fill": [
+            2,
+            19994
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:fillRect": [
+            1,
+            9748
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:getImageData": [
+            18,
+            540
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:restore": [
+            6,
+            246
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:rotate": [
+            199,
+            199
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:save": [
+            6,
+            246
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:scale": [
+            2,
+            40114
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:setLineDash": [
+            28,
+            28
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:stroke": [
+            12,
+            378
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:translate": [
+            2,
+            80100
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/CanvasGradient.cpp:addColorStop": [
+            93,
+            288
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/CanvasPathMethods.cpp:arc": [
+            5,
+            19994
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/CanvasPathMethods.cpp:bezierCurveTo": [
+            7,
+            48
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/CanvasPathMethods.cpp:closePath": [
+            3,
+            20372
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/CanvasPathMethods.cpp:lineTo": [
+            23,
+            1589
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/CanvasPathMethods.cpp:moveTo": [
+            13,
+            378
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/CanvasPathMethods.cpp:rect": [
+            2,
+            1282
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/CanvasRenderingContext2D.cpp:fillText": [
+            2,
+            180
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/CanvasRenderingContext2D.cpp:measureText": [
+            13,
+            74
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/CanvasRenderingContext2D.cpp:strokeText": [
+            168,
+            168
+        ],
+        "../../third_party/WebKit/Source/modules/crypto/Crypto.cpp:getRandomValues": [
+            1,
+            92
+        ],
+        "../../third_party/WebKit/Source/modules/crypto/DOMWindowCrypto.cpp:crypto": [
+            2,
+            168
+        ],
+        "../../third_party/WebKit/Source/modules/crypto/SubtleCrypto.cpp:decrypt": [
+            2,
+            8
+        ],
+        "../../third_party/WebKit/Source/modules/crypto/SubtleCrypto.cpp:digest": [
+            1,
+            15
+        ],
+        "../../third_party/WebKit/Source/modules/crypto/SubtleCrypto.cpp:encrypt": [
+            2,
+            18
+        ],
+        "../../third_party/WebKit/Source/modules/crypto/SubtleCrypto.cpp:exportKey": [
+            2,
+            11
+        ],
+        "../../third_party/WebKit/Source/modules/crypto/SubtleCrypto.cpp:generateKey": [
+            1,
+            9
+        ],
+        "../../third_party/WebKit/Source/modules/crypto/SubtleCrypto.cpp:importKey": [
+            2,
+            21
+        ],
+        "../../third_party/WebKit/Source/modules/crypto/SubtleCrypto.cpp:sign": [
+            1,
+            6
+        ],
+        "../../third_party/WebKit/Source/modules/donottrack/NavigatorDoNotTrack.cpp:doNotTrack": [
+            2,
+            34
+        ],
+        "../../third_party/WebKit/Source/modules/encoding/TextDecoder.cpp:decode": [
+            4,
+            16
+        ],
+        "../../third_party/WebKit/Source/modules/encoding/TextEncoder.cpp:encode": [
+            1,
+            35
+        ],
+        "../../third_party/WebKit/Source/modules/fetch/Body.cpp:json": [
+            1,
+            33
+        ],
+        "../../third_party/WebKit/Source/modules/fetch/Body.cpp:text": [
+            1,
+            7
+        ],
+        "../../third_party/WebKit/Source/modules/fetch/GlobalFetch.cpp:fetch": [
+            2,
+            180
+        ],
+        "../../third_party/WebKit/Source/modules/fetch/Headers.cpp:append": [
+            1,
+            173
+        ],
+        "../../third_party/WebKit/Source/modules/fetch/Headers.cpp:get": [
+            1,
+            56
+        ],
+        "../../third_party/WebKit/Source/modules/fetch/Headers.cpp:has": [
+            1,
+            42
+        ],
+        "../../third_party/WebKit/Source/modules/fetch/Response.cpp:clone": [
+            13,
+            13
+        ],
+        "../../third_party/WebKit/Source/modules/geolocation/Geolocation.cpp:getCurrentPosition": [
+            3,
+            7
+        ],
+        "../../third_party/WebKit/Source/modules/geolocation/NavigatorGeolocation.cpp:geolocation": [
+            2,
+            42
+        ],
+        "../../third_party/WebKit/Source/modules/indexeddb/GlobalIndexedDB.cpp:indexedDB": [
+            1,
+            18
+        ],
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBDatabase.cpp:close": [
+            1,
+            10
+        ],
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBDatabase.cpp:createObjectStore": [
+            1,
+            1
+        ],
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBFactory.cpp:open": [
+            1,
+            13
+        ],
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBIndex.cpp:get": [
+            1,
+            384
+        ],
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBIndex.cpp:getKey": [
+            1,
+            272
+        ],
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBIndex.cpp:openCursor": [
+            2,
+            550
+        ],
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBObjectStore.cpp:add": [
+            15,
+            15
+        ],
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBObjectStore.cpp:get": [
+            1,
+            153
+        ],
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBObjectStore.cpp:index": [
+            1,
+            545
+        ],
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBObjectStore.cpp:put": [
+            9,
+            834
+        ],
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBTransaction.cpp:abort": [
+            1,
+            8
+        ],
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBTransaction.cpp:objectStore": [
+            4,
+            829
+        ],
+        "../../third_party/WebKit/Source/modules/mediasource/MediaSource.cpp:addSourceBuffer": [
+            2,
+            2
+        ],
+        "../../third_party/WebKit/Source/modules/mediasource/MediaSource.cpp:isTypeSupported": [
+            1,
+            84
+        ],
+        "../../third_party/WebKit/Source/modules/mediasource/SourceBuffer.cpp:appendBuffer": [
+            9,
+            14
+        ],
+        "../../third_party/WebKit/Source/modules/mediasource/SourceBuffer.cpp:remove": [
+            2,
+            2
+        ],
+        "../../third_party/WebKit/Source/modules/mediastream/MediaDevices.cpp:enumerateDevices": [
+            1,
+            4
+        ],
+        "../../third_party/WebKit/Source/modules/mediastream/MediaDevices.cpp:getUserMedia": [
+            1,
+            1
+        ],
+        "../../third_party/WebKit/Source/modules/mediastream/NavigatorUserMedia.cpp:mediaDevices": [
+            3,
+            15
+        ],
+        "../../third_party/WebKit/Source/modules/notifications/Notification.cpp:requestPermission": [
+            1,
+            3
+        ],
+        "../../third_party/WebKit/Source/modules/peerconnection/RTCPeerConnection.cpp:close": [
+            1,
+            3
+        ],
+        "../../third_party/WebKit/Source/modules/peerconnection/RTCPeerConnection.cpp:createDataChannel": [
+            1,
+            8
+        ],
+        "../../third_party/WebKit/Source/modules/plugins/DOMMimeTypeArray.cpp:item": [
+            4,
+            52
+        ],
+        "../../third_party/WebKit/Source/modules/plugins/DOMMimeTypeArray.cpp:namedItem": [
+            1,
+            40
+        ],
+        "../../third_party/WebKit/Source/modules/plugins/DOMPlugin.cpp:item": [
+            2,
+            32
+        ],
+        "../../third_party/WebKit/Source/modules/plugins/DOMPlugin.cpp:namedItem": [
+            2,
+            16
+        ],
+        "../../third_party/WebKit/Source/modules/plugins/DOMPluginArray.cpp:item": [
+            2,
+            62
+        ],
+        "../../third_party/WebKit/Source/modules/plugins/DOMPluginArray.cpp:namedItem": [
+            1,
+            242
+        ],
+        "../../third_party/WebKit/Source/modules/plugins/DOMPluginArray.cpp:refresh": [
+            1,
+            1
+        ],
+        "../../third_party/WebKit/Source/modules/plugins/NavigatorPlugins.cpp:mimeTypes": [
+            2,
+            126
+        ],
+        "../../third_party/WebKit/Source/modules/screen_orientation/ScreenScreenOrientation.cpp:orientation": [
+            45,
+            84
+        ],
+        "../../third_party/WebKit/Source/modules/webaudio/AudioBuffer.cpp:getChannelData": [
+            10648,
+            10648
+        ],
+        "../../third_party/WebKit/Source/modules/webaudio/AudioNode.cpp:connect": [
+            2,
+            2
+        ],
+        "../../third_party/WebKit/Source/modules/webaudio/AudioNode.cpp:disconnect": [
+            2,
+            2
+        ],
+        "../../third_party/WebKit/Source/modules/webaudio/BaseAudioContext.cpp:createMediaStreamSource": [
+            1,
+            1
+        ],
+        "../../third_party/WebKit/Source/modules/webaudio/BaseAudioContext.cpp:createScriptProcessor": [
+            1,
+            1
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:activeTexture": [
+            648,
+            648
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:attachShader": [
+            2,
+            8
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:bindBuffer": [
+            1,
+            2
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:bindFramebuffer": [
+            1,
+            437
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:bindTexture": [
+            1,
+            878
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:bufferData": [
+            1,
+            2
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:clear": [
+            3,
+            6
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:clearColor": [
+            3,
+            6
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:compileShader": [
+            2,
+            8
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:createBuffer": [
+            1,
+            2
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:createProgram": [
+            1,
+            4
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:createShader": [
+            2,
+            8
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:createTexture": [
+            8,
+            8
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:deleteBuffer": [
+            2,
+            2
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:deleteProgram": [
+            4,
+            4
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:deleteTexture": [
+            6,
+            6
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:depthFunc": [
+            3,
+            6
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:drawArrays": [
+            1,
+            216
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:enable": [
+            3,
+            6
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:enableVertexAttribArray": [
+            1,
+            4
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:getAttribLocation": [
+            1,
+            4
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:getContextAttributes": [
+            2,
+            658
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:getError": [
+            2,
+            2
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:getExtension": [
+            1,
+            4
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:getParameter": [
+            2,
+            52
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:getShaderParameter": [
+            8,
+            8
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:getShaderPrecisionFormat": [
+            36,
+            72
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:getSupportedExtensions": [
+            2,
+            3
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:getUniformLocation": [
+            1,
+            6
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:isContextLost": [
+            11,
+            4782
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:linkProgram": [
+            1,
+            4
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:shaderSource": [
+            2,
+            8
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:texImage2D": [
+            650,
+            650
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:texParameteri": [
+            24,
+            24
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:uniform1i": [
+            6,
+            6
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:uniform2f": [
+            1,
+            2
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:useProgram": [
+            1,
+            221
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:vertexAttribPointer": [
+            1,
+            4
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:viewport": [
+            1,
+            1
+        ],
+        "../../third_party/WebKit/Source/modules/websockets/DOMWebSocket.cpp:send": [
+            2,
+            36
+        ]
+    },
+    "funcrangewithoutext": {
+        "../../third_party/WebKit/Source/core/css/CSSComputedStyleDeclaration.cpp:getPropertyValue": [
+            2,
+            11285
+        ],
+        "../../third_party/WebKit/Source/core/css/CSSComputedStyleDeclaration.cpp:item": [
+            274,
+            1048
+        ],
+        "../../third_party/WebKit/Source/core/css/CSSStyleSheet.cpp:deleteRule": [
+            18,
+            34
+        ],
+        "../../third_party/WebKit/Source/core/css/CSSStyleSheet.cpp:insertRule": [
+            3,
+            352
+        ],
+        "../../third_party/WebKit/Source/core/css/DOMWindowCSS.cpp:escape": [
+            128,
+            128
+        ],
+        "../../third_party/WebKit/Source/core/css/DOMWindowCSS.cpp:supports": [
+            1,
+            49
+        ],
+        "../../third_party/WebKit/Source/core/css/DocumentFontFaceSet.cpp:fonts": [
+            2,
+            36
+        ],
+        "../../third_party/WebKit/Source/core/css/FontFace.cpp:load": [
+            3,
+            7
+        ],
+        "../../third_party/WebKit/Source/core/css/FontFaceSet.cpp:check": [
+            20,
+            20
+        ],
+        "../../third_party/WebKit/Source/core/css/FontFaceSet.cpp:load": [
+            2,
+            15
+        ],
+        "../../third_party/WebKit/Source/core/css/MediaQueryList.cpp:addListener": [
+            6,
+            632
+        ],
+        "../../third_party/WebKit/Source/core/css/MediaQueryList.cpp:removeListener": [
+            8,
+            244
+        ],
+        "../../third_party/WebKit/Source/core/css/PropertySetCSSStyleDeclaration.cpp:removeProperty": [
+            1,
+            37
+        ],
+        "../../third_party/WebKit/Source/core/css/PropertySetCSSStyleDeclaration.cpp:setProperty": [
+            1,
+            68
+        ],
+        "../../third_party/WebKit/Source/core/css/StyleSheetList.cpp:item": [
+            12,
+            1103
+        ],
+        "../../third_party/WebKit/Source/core/dom/CharacterData.cpp:appendData": [
+            1,
+            5322
+        ],
+        "../../third_party/WebKit/Source/core/dom/CharacterData.cpp:insertData": [
+            3,
+            10
+        ],
+        "../../third_party/WebKit/Source/core/dom/ClientRectList.cpp:item": [
+            3,
+            402
+        ],
+        "../../third_party/WebKit/Source/core/dom/ContainerNode.cpp:getElementsByClassName": [
+            6,
+            2859
+        ],
+        "../../third_party/WebKit/Source/core/dom/ContainerNode.cpp:getElementsByTagName": [
+            1,
+            5157
+        ],
+        "../../third_party/WebKit/Source/core/dom/ContainerNode.cpp:getElementsByTagNameNS": [
+            3,
+            158
+        ],
+        "../../third_party/WebKit/Source/core/dom/DOMImplementation.cpp:createDocument": [
+            5,
+            203
+        ],
+        "../../third_party/WebKit/Source/core/dom/DOMImplementation.cpp:createHTMLDocument": [
+            1,
+            8
+        ],
+        "../../third_party/WebKit/Source/core/dom/DOMStringList.cpp:contains": [
+            1,
+            10
+        ],
+        "../../third_party/WebKit/Source/core/dom/DOMTokenList.cpp:add": [
+            1,
+            4619
+        ],
+        "../../third_party/WebKit/Source/core/dom/DOMTokenList.cpp:contains": [
+            1,
+            4658
+        ],
+        "../../third_party/WebKit/Source/core/dom/DOMTokenList.cpp:remove": [
+            1,
+            1271
+        ],
+        "../../third_party/WebKit/Source/core/dom/DOMTokenList.cpp:toggle": [
+            1,
+            20
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:activeElement": [
+            1,
+            4841
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:body": [
+            401,
+            202597
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:close": [
+            1,
+            57
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:compatMode": [
+            1,
+            4550
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:cookie": [
+            1,
+            5876
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:createAttribute": [
+            2,
+            3
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:createAttributeNS": [
+            2,
+            3
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:createComment": [
+            1,
+            1127
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:createDocumentFragment": [
+            1,
+            3138
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:createElement": [
+            90,
+            44600
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:createElementNS": [
+            1,
+            413
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:createRange": [
+            1,
+            178
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:createTextNode": [
+            7,
+            7654
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:currentScriptForBinding": [
+            1,
+            54
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:dir": [
+            1,
+            8
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:domain": [
+            1,
+            96
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:embeds": [
+            4,
+            4
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:execCommand": [
+            1,
+            4
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:forms": [
+            11,
+            339
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:hasFocus": [
+            1,
+            64
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:head": [
+            24,
+            1436
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:hidden": [
+            4,
+            6127
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:images": [
+            1,
+            309
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:implementation": [
+            1,
+            53
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:importNode": [
+            213,
+            17444
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:lastModified": [
+            2,
+            81
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:links": [
+            1,
+            1298
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:location": [
+            22,
+            9132
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:open": [
+            1,
+            57
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:readyState": [
+            1,
+            2650
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:referrer": [
+            1,
+            994
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:scripts": [
+            1,
+            158
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:styleSheets": [
+            1,
+            196
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:visibilityState": [
+            1,
+            1379
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:write": [
+            2,
+            1194
+        ],
+        "../../third_party/WebKit/Source/core/dom/Document.cpp:writeln": [
+            2,
+            6
+        ],
+        "../../third_party/WebKit/Source/core/dom/DocumentFullscreen.cpp:exitFullscreen": [
+            1,
+            1
+        ],
+        "../../third_party/WebKit/Source/core/dom/DocumentFullscreen.cpp:fullscreenEnabled": [
+            1,
+            7
+        ],
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:closest": [
+            1,
+            332
+        ],
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:getAttribute": [
+            1163,
+            127879
+        ],
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:getAttributeNS": [
+            1011,
+            1011
+        ],
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:getAttributeNode": [
+            1,
+            3967
+        ],
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:getBoundingClientRect": [
+            1,
+            12681
+        ],
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:getClientRects": [
+            1,
+            578
+        ],
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:hasAttribute": [
+            2,
+            25864
+        ],
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:hasAttributeNS": [
+            2,
+            6099
+        ],
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:insertAdjacentHTML": [
+            1,
+            26
+        ],
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:matches": [
+            3,
+            21081
+        ],
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:removeAttribute": [
+            2,
+            78838
+        ],
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:setAttribute": [
+            106,
+            80913
+        ],
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:setAttributeNS": [
+            3,
+            69
+        ],
+        "../../third_party/WebKit/Source/core/dom/Element.cpp:setAttributeNode": [
+            2,
+            2
+        ],
+        "../../third_party/WebKit/Source/core/dom/MessagePort.cpp:close": [
+            1,
+            24
+        ],
+        "../../third_party/WebKit/Source/core/dom/MessagePort.cpp:postMessage": [
+            1,
+            81
+        ],
+        "../../third_party/WebKit/Source/core/dom/MessagePort.cpp:start": [
+            1,
+            23
+        ],
+        "../../third_party/WebKit/Source/core/dom/MutationObserver.cpp:disconnect": [
+            1,
+            30
+        ],
+        "../../third_party/WebKit/Source/core/dom/MutationObserver.cpp:observe": [
+            1,
+            93
+        ],
+        "../../third_party/WebKit/Source/core/dom/MutationObserver.cpp:takeRecords": [
+            15,
+            38613
+        ],
+        "../../third_party/WebKit/Source/core/dom/NamedNodeMap.cpp:getNamedItem": [
+            1,
+            3967
+        ],
+        "../../third_party/WebKit/Source/core/dom/NamedNodeMap.cpp:item": [
+            2,
+            5771
+        ],
+        "../../third_party/WebKit/Source/core/dom/Node.cpp:appendChild": [
+            18,
+            8312
+        ],
+        "../../third_party/WebKit/Source/core/dom/Node.cpp:compareDocumentPosition": [
+            4,
+            21803
+        ],
+        "../../third_party/WebKit/Source/core/dom/Node.cpp:contains": [
+            42,
+            73799
+        ],
+        "../../third_party/WebKit/Source/core/dom/Node.cpp:insertBefore": [
+            4,
+            2843
+        ],
+        "../../third_party/WebKit/Source/core/dom/Node.cpp:isEqualNode": [
+            1,
+            1
+        ],
+        "../../third_party/WebKit/Source/core/dom/Node.cpp:removeChild": [
+            6,
+            1365
+        ],
+        "../../third_party/WebKit/Source/core/dom/Node.cpp:replaceChild": [
+            1,
+            1109
+        ],
+        "../../third_party/WebKit/Source/core/dom/Range.cpp:collapse": [
+            1,
+            178
+        ],
+        "../../third_party/WebKit/Source/core/dom/Range.cpp:compareBoundaryPoints": [
+            2,
+            712
+        ],
+        "../../third_party/WebKit/Source/core/dom/Range.cpp:getClientRects": [
+            178,
+            178
+        ],
+        "../../third_party/WebKit/Source/core/dom/Range.cpp:isPointInRange": [
+            2,
+            3
+        ],
+        "../../third_party/WebKit/Source/core/dom/Range.cpp:selectNodeContents": [
+            3,
+            61
+        ],
+        "../../third_party/WebKit/Source/core/dom/Range.cpp:setEnd": [
+            1,
+            178
+        ],
+        "../../third_party/WebKit/Source/core/dom/Range.cpp:setStart": [
+            1,
+            178
+        ],
+        "../../third_party/WebKit/Source/core/dom/Text.cpp:splitText": [
+            3,
+            3
+        ],
+        "../../third_party/WebKit/Source/core/dom/TreeScope.cpp:getElementById": [
+            42,
+            5875
+        ],
+        "../../third_party/WebKit/Source/core/dom/URLSearchParams.cpp:get": [
+            2,
+            10
+        ],
+        "../../third_party/WebKit/Source/core/events/CustomEvent.cpp:initCustomEvent": [
+            1,
+            136
+        ],
+        "../../third_party/WebKit/Source/core/events/Event.cpp:initEvent": [
+            1,
+            710
+        ],
+        "../../third_party/WebKit/Source/core/events/Event.cpp:preventDefault": [
+            1,
+            97
+        ],
+        "../../third_party/WebKit/Source/core/events/EventTarget.cpp:addEventListener": [
+            28,
+            35214
+        ],
+        "../../third_party/WebKit/Source/core/events/EventTarget.cpp:dispatchEvent": [
+            468,
+            5131
+        ],
+        "../../third_party/WebKit/Source/core/events/EventTarget.cpp:removeEventListener": [
+            4,
+            2760
+        ],
+        "../../third_party/WebKit/Source/core/events/MouseEvent.cpp:initMouseEvent": [
+            1,
+            1
+        ],
+        "../../third_party/WebKit/Source/core/events/UIEvent.cpp:initUIEvent": [
+            1,
+            21
+        ],
+        "../../third_party/WebKit/Source/core/fileapi/URLFileAPI.cpp:createObjectURL": [
+            2,
+            6
+        ],
+        "../../third_party/WebKit/Source/core/fileapi/URLFileAPI.cpp:revokeObjectURL": [
+            1,
+            3
+        ],
+        "../../third_party/WebKit/Source/core/frame/DOMWindow.cpp:closed": [
+            2,
+            35
+        ],
+        "../../third_party/WebKit/Source/core/frame/DOMWindow.cpp:focus": [
+            4,
+            6
+        ],
+        "../../third_party/WebKit/Source/core/frame/DOMWindow.cpp:length": [
+            1,
+            1318
+        ],
+        "../../third_party/WebKit/Source/core/frame/DOMWindow.cpp:location": [
+            22,
+            14376
+        ],
+        "../../third_party/WebKit/Source/core/frame/DOMWindow.cpp:opener": [
+            1,
+            4402
+        ],
+        "../../third_party/WebKit/Source/core/frame/DOMWindow.cpp:parent": [
+            1,
+            262191
+        ],
+        "../../third_party/WebKit/Source/core/frame/DOMWindow.cpp:postMessage": [
+            1,
+            1512
+        ],
+        "../../third_party/WebKit/Source/core/frame/DOMWindow.cpp:self": [
+            46,
+            49053
+        ],
+        "../../third_party/WebKit/Source/core/frame/DOMWindow.cpp:top": [
+            1,
+            6562
+        ],
+        "../../third_party/WebKit/Source/core/frame/DOMWindowBase64.cpp:atob": [
+            1,
+            422
+        ],
+        "../../third_party/WebKit/Source/core/frame/DOMWindowBase64.cpp:btoa": [
+            1,
+            24
+        ],
+        "../../third_party/WebKit/Source/core/frame/DOMWindowTimers.cpp:clearInterval": [
+            1,
+            165
+        ],
+        "../../third_party/WebKit/Source/core/frame/DOMWindowTimers.cpp:clearTimeout": [
+            3,
+            2059
+        ],
+        "../../third_party/WebKit/Source/core/frame/DOMWindowTimers.cpp:setInterval": [
+            1,
+            167
+        ],
+        "../../third_party/WebKit/Source/core/frame/DOMWindowTimers.cpp:setTimeout": [
+            7,
+            4770
+        ],
+        "../../third_party/WebKit/Source/core/frame/History.cpp:back": [
+            1,
+            1
+        ],
+        "../../third_party/WebKit/Source/core/frame/History.cpp:go": [
+            1,
+            1
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:alert": [
+            1,
+            2
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:applicationCache": [
+            1,
+            21
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:cancelAnimationFrame": [
+            1,
+            682
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:devicePixelRatio": [
+            1,
+            378
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:document": [
+            27270,
+            1141576
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:frameConsole": [
+            1,
+            3
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:frameElement": [
+            1,
+            1179
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:getComputedStyle": [
+            3,
+            15274
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:getSelection": [
+            4,
+            5
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:history": [
+            1,
+            204
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:innerHeight": [
+            1,
+            12722
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:innerWidth": [
+            1,
+            12632
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:locationbar": [
+            1,
+            34
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:matchMedia": [
+            1,
+            1501
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:menubar": [
+            1,
+            34
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:moveTo": [
+            2,
+            3
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:name": [
+            1,
+            960
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:navigator": [
+            28,
+            2520
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:open": [
+            1,
+            2
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:outerHeight": [
+            1,
+            87
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:outerWidth": [
+            1,
+            148
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:personalbar": [
+            3,
+            34
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:requestAnimationFrame": [
+            1,
+            3003
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:resizeBy": [
+            1,
+            1
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:resizeTo": [
+            1,
+            3
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:screen": [
+            1,
+            759
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:screenX": [
+            1,
+            502
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:screenY": [
+            1,
+            502
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:scrollTo": [
+            1,
+            50
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:scrollX": [
+            3,
+            5004
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:scrollY": [
+            4,
+            6316
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:scrollbars": [
+            3,
+            34
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:statusbar": [
+            1,
+            34
+        ],
+        "../../third_party/WebKit/Source/core/frame/LocalDOMWindow.cpp:toolbar": [
+            1,
+            34
+        ],
+        "../../third_party/WebKit/Source/core/frame/Location.cpp:href": [
+            1,
+            13618
+        ],
+        "../../third_party/WebKit/Source/core/frame/Location.cpp:reload": [
+            1,
+            1
+        ],
+        "../../third_party/WebKit/Source/core/frame/Location.cpp:replace": [
+            1,
+            1
+        ],
+        "../../third_party/WebKit/Source/core/frame/Navigator.cpp:languages": [
+            1,
+            9
+        ],
+        "../../third_party/WebKit/Source/core/frame/Navigator.cpp:vendorSub": [
+            1,
+            8
+        ],
+        "../../third_party/WebKit/Source/core/frame/NavigatorID.cpp:appCodeName": [
+            1,
+            8
+        ],
+        "../../third_party/WebKit/Source/core/frame/NavigatorID.cpp:appName": [
+            1,
+            81
+        ],
+        "../../third_party/WebKit/Source/core/frame/NavigatorID.cpp:appVersion": [
+            1,
+            410
+        ],
+        "../../third_party/WebKit/Source/core/frame/NavigatorID.cpp:platform": [
+            1,
+            125
+        ],
+        "../../third_party/WebKit/Source/core/frame/NavigatorID.cpp:product": [
+            1,
+            9
+        ],
+        "../../third_party/WebKit/Source/core/frame/NavigatorLanguage.cpp:language": [
+            1,
+            143
+        ],
+        "../../third_party/WebKit/Source/core/frame/Screen.cpp:availHeight": [
+            1,
+            52
+        ],
+        "../../third_party/WebKit/Source/core/frame/Screen.cpp:availLeft": [
+            1,
+            51
+        ],
+        "../../third_party/WebKit/Source/core/frame/Screen.cpp:availTop": [
+            1,
+            34
+        ],
+        "../../third_party/WebKit/Source/core/frame/Screen.cpp:availWidth": [
+            1,
+            63
+        ],
+        "../../third_party/WebKit/Source/core/frame/Screen.cpp:colorDepth": [
+            1,
+            66
+        ],
+        "../../third_party/WebKit/Source/core/frame/Screen.cpp:height": [
+            1,
+            403
+        ],
+        "../../third_party/WebKit/Source/core/frame/Screen.cpp:pixelDepth": [
+            1,
+            48
+        ],
+        "../../third_party/WebKit/Source/core/frame/Screen.cpp:width": [
+            1,
+            403
+        ],
+        "../../third_party/WebKit/Source/core/html/FormData.cpp:append": [
+            1,
+            54
+        ],
+        "../../third_party/WebKit/Source/core/html/HTMLCanvasElement.cpp:toDataURL": [
+            1,
+            20
+        ],
+        "../../third_party/WebKit/Source/core/html/HTMLCollection.cpp:item": [
+            483,
+            231392
+        ],
+        "../../third_party/WebKit/Source/core/html/HTMLCollection.cpp:namedItem": [
+            1,
+            2410
+        ],
+        "../../third_party/WebKit/Source/core/html/HTMLFormElement.cpp:item": [
+            1,
+            252
+        ],
+        "../../third_party/WebKit/Source/core/html/HTMLFormElement.cpp:reset": [
+            1,
+            2
+        ],
+        "../../third_party/WebKit/Source/core/html/HTMLFormElement.cpp:submit": [
+            1,
+            7
+        ],
+        "../../third_party/WebKit/Source/core/html/HTMLMediaElement.cpp:addTextTrack": [
+            1,
+            4
+        ],
+        "../../third_party/WebKit/Source/core/html/HTMLMediaElement.cpp:canPlayType": [
+            1,
+            55
+        ],
+        "../../third_party/WebKit/Source/core/html/HTMLMediaElement.cpp:load": [
+            1,
+            26
+        ],
+        "../../third_party/WebKit/Source/core/html/HTMLMediaElement.cpp:pause": [
+            1,
+            13
+        ],
+        "../../third_party/WebKit/Source/core/html/HTMLMediaElement.cpp:play": [
+            1,
+            26
+        ],
+        "../../third_party/WebKit/Source/core/html/HTMLSelectElement.cpp:add": [
+            1,
+            92
+        ],
+        "../../third_party/WebKit/Source/core/html/HTMLSelectElement.cpp:item": [
+            1,
+            2
+        ],
+        "../../third_party/WebKit/Source/core/html/TimeRanges.cpp:end": [
+            552,
+            1723
+        ],
+        "../../third_party/WebKit/Source/core/html/TimeRanges.cpp:start": [
+            1,
+            443
+        ],
+        "../../third_party/WebKit/Source/core/svg/SVGGraphicsElement.cpp:getScreenCTM": [
+            1282,
+            1282
+        ],
+        "../../third_party/WebKit/Source/core/svg/SVGSVGElement.cpp:animationsPaused": [
+            1,
+            716
+        ],
+        "../../third_party/WebKit/Source/core/svg/SVGSVGElement.cpp:pauseAnimations": [
+            1,
+            1734
+        ],
+        "../../third_party/WebKit/Source/core/svg/SVGSVGElement.cpp:setCurrentTime": [
+            3,
+            3
+        ],
+        "../../third_party/WebKit/Source/core/svg/SVGSVGElement.cpp:unpauseAnimations": [
+            1,
+            15
+        ],
+        "../../third_party/WebKit/Source/core/svg/SVGTextContentElement.cpp:getComputedTextLength": [
+            10,
+            10
+        ],
+        "../../third_party/WebKit/Source/core/timing/DOMWindowPerformance.cpp:performance": [
+            738,
+            24462
+        ],
+        "../../third_party/WebKit/Source/core/timing/Performance.cpp:navigation": [
+            1,
+            191
+        ],
+        "../../third_party/WebKit/Source/core/timing/Performance.cpp:timing": [
+            801,
+            18769
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceBase.cpp:clearMarks": [
+            1,
+            2
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceBase.cpp:clearResourceTimings": [
+            2,
+            28
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceBase.cpp:getEntries": [
+            1,
+            760
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceBase.cpp:getEntriesByName": [
+            1,
+            211
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceBase.cpp:getEntriesByType": [
+            1,
+            221
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceBase.cpp:mark": [
+            1,
+            1388
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceBase.cpp:measure": [
+            1,
+            48
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceBase.cpp:now": [
+            4,
+            49633
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceBase.cpp:setResourceTimingBufferSize": [
+            1,
+            12
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceNavigation.cpp:redirectCount": [
+            1,
+            26
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceNavigation.cpp:type": [
+            1,
+            98
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:connectEnd": [
+            1,
+            33
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:connectStart": [
+            1,
+            51
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:domComplete": [
+            1,
+            40
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:domContentLoadedEventEnd": [
+            1,
+            48
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:domContentLoadedEventStart": [
+            45,
+            755
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:domInteractive": [
+            1,
+            78
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:domLoading": [
+            1,
+            44
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:domainLookupEnd": [
+            1,
+            70
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:domainLookupStart": [
+            1,
+            96
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:fetchStart": [
+            1,
+            116
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:loadEventEnd": [
+            1,
+            56
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:loadEventStart": [
+            42,
+            741
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:navigationStart": [
+            49,
+            5601
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:redirectEnd": [
+            1,
+            26
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:redirectStart": [
+            1,
+            26
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:requestStart": [
+            1,
+            30
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:responseEnd": [
+            1,
+            38
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:responseStart": [
+            80,
+            1457
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:unloadEventEnd": [
+            1,
+            16
+        ],
+        "../../third_party/WebKit/Source/core/timing/PerformanceTiming.cpp:unloadEventStart": [
+            1,
+            16
+        ],
+        "../../third_party/WebKit/Source/core/workers/InProcessWorkerBase.cpp:postMessage": [
+            1,
+            44
+        ],
+        "../../third_party/WebKit/Source/core/workers/InProcessWorkerBase.cpp:terminate": [
+            1,
+            4
+        ],
+        "../../third_party/WebKit/Source/core/xml/DOMParser.cpp:parseFromString": [
+            1,
+            5
+        ],
+        "../../third_party/WebKit/Source/core/xmlhttprequest/XMLHttpRequest.cpp:abort": [
+            1,
+            4
+        ],
+        "../../third_party/WebKit/Source/core/xmlhttprequest/XMLHttpRequest.cpp:getAllResponseHeaders": [
+            1,
+            119
+        ],
+        "../../third_party/WebKit/Source/core/xmlhttprequest/XMLHttpRequest.cpp:getResponseHeader": [
+            1,
+            191
+        ],
+        "../../third_party/WebKit/Source/core/xmlhttprequest/XMLHttpRequest.cpp:open": [
+            2,
+            306
+        ],
+        "../../third_party/WebKit/Source/core/xmlhttprequest/XMLHttpRequest.cpp:overrideMimeType": [
+            1,
+            9
+        ],
+        "../../third_party/WebKit/Source/core/xmlhttprequest/XMLHttpRequest.cpp:send": [
+            2,
+            306
+        ],
+        "../../third_party/WebKit/Source/core/xmlhttprequest/XMLHttpRequest.cpp:setRequestHeader": [
+            1,
+            246
+        ],
+        "../../third_party/WebKit/Source/modules/battery/NavigatorBattery.cpp:getBattery": [
+            2,
+            10
+        ],
+        "../../third_party/WebKit/Source/modules/beacon/NavigatorBeacon.cpp:sendBeacon": [
+            1,
+            35
+        ],
+        "../../third_party/WebKit/Source/modules/cachestorage/Cache.cpp:put": [
+            14,
+            14
+        ],
+        "../../third_party/WebKit/Source/modules/cachestorage/CacheStorage.cpp:keys": [
+            1,
+            1
+        ],
+        "../../third_party/WebKit/Source/modules/cachestorage/CacheStorage.cpp:match": [
+            5,
+            32
+        ],
+        "../../third_party/WebKit/Source/modules/cachestorage/CacheStorage.cpp:open": [
+            11,
+            11
+        ],
+        "../../third_party/WebKit/Source/modules/canvas/HTMLCanvasElementModule.cpp:getContext": [
+            1,
+            194
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:beginPath": [
+            3,
+            384
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:clearRect": [
+            2,
+            206
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:clip": [
+            28,
+            28
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:createLinearGradient": [
+            4,
+            42
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:createPattern": [
+            20,
+            20
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:createRadialGradient": [
+            120,
+            120
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:drawImage": [
+            6,
+            396
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:fill": [
+            2,
+            278
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:fillRect": [
+            1,
+            9748
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:getImageData": [
+            2,
+            76
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:putImageData": [
+            126,
+            152
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:resetTransform": [
+            79,
+            106
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:restore": [
+            20,
+            1026
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:save": [
+            20,
+            1057
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:scale": [
+            12,
+            12
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:setTransform": [
+            79,
+            106
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:stroke": [
+            20,
+            175
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/BaseRenderingContext2D.cpp:transform": [
+            341,
+            1163
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/CanvasGradient.cpp:addColorStop": [
+            8,
+            360
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/CanvasPathMethods.cpp:arc": [
+            5,
+            175
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/CanvasPathMethods.cpp:bezierCurveTo": [
+            48,
+            60
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/CanvasPathMethods.cpp:closePath": [
+            3,
+            1757
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/CanvasPathMethods.cpp:lineTo": [
+            7,
+            25644
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/CanvasPathMethods.cpp:moveTo": [
+            20,
+            1757
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/CanvasPathMethods.cpp:quadraticCurveTo": [
+            617,
+            11741
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/CanvasPathMethods.cpp:rect": [
+            2,
+            2520
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/CanvasRenderingContext2D.cpp:fillText": [
+            2,
+            89
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/CanvasRenderingContext2D.cpp:measureText": [
+            1,
+            184
+        ],
+        "../../third_party/WebKit/Source/modules/canvas2d/CanvasRenderingContext2D.cpp:strokeText": [
+            1,
+            1
+        ],
+        "../../third_party/WebKit/Source/modules/crypto/Crypto.cpp:getRandomValues": [
+            1,
+            106
+        ],
+        "../../third_party/WebKit/Source/modules/crypto/DOMWindowCrypto.cpp:crypto": [
+            4,
+            230
+        ],
+        "../../third_party/WebKit/Source/modules/donottrack/NavigatorDoNotTrack.cpp:doNotTrack": [
+            2,
+            816
+        ],
+        "../../third_party/WebKit/Source/modules/fetch/Body.cpp:json": [
+            1,
+            14
+        ],
+        "../../third_party/WebKit/Source/modules/fetch/Body.cpp:text": [
+            1,
+            7
+        ],
+        "../../third_party/WebKit/Source/modules/fetch/GlobalFetch.cpp:fetch": [
+            2,
+            62
+        ],
+        "../../third_party/WebKit/Source/modules/fetch/Headers.cpp:append": [
+            1,
+            72
+        ],
+        "../../third_party/WebKit/Source/modules/fetch/Headers.cpp:get": [
+            1,
+            43
+        ],
+        "../../third_party/WebKit/Source/modules/fetch/Headers.cpp:has": [
+            1,
+            15
+        ],
+        "../../third_party/WebKit/Source/modules/fetch/Response.cpp:clone": [
+            14,
+            14
+        ],
+        "../../third_party/WebKit/Source/modules/geolocation/Geolocation.cpp:getCurrentPosition": [
+            4,
+            5
+        ],
+        "../../third_party/WebKit/Source/modules/geolocation/NavigatorGeolocation.cpp:geolocation": [
+            2,
+            30
+        ],
+        "../../third_party/WebKit/Source/modules/indexeddb/GlobalIndexedDB.cpp:indexedDB": [
+            1,
+            30
+        ],
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBDatabase.cpp:close": [
+            16,
+            16
+        ],
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBDatabase.cpp:createObjectStore": [
+            1,
+            3
+        ],
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBFactory.cpp:open": [
+            1,
+            16
+        ],
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBObjectStore.cpp:add": [
+            2,
+            2
+        ],
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBObjectStore.cpp:createIndex": [
+            1,
+            1
+        ],
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBObjectStore.cpp:get": [
+            2,
+            18
+        ],
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBObjectStore.cpp:openCursor": [
+            7,
+            7
+        ],
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBObjectStore.cpp:put": [
+            3,
+            27
+        ],
+        "../../third_party/WebKit/Source/modules/indexeddb/IDBTransaction.cpp:objectStore": [
+            3,
+            30
+        ],
+        "../../third_party/WebKit/Source/modules/mediasource/MediaSource.cpp:addSourceBuffer": [
+            2,
+            6
+        ],
+        "../../third_party/WebKit/Source/modules/mediasource/MediaSource.cpp:isTypeSupported": [
+            1,
+            89
+        ],
+        "../../third_party/WebKit/Source/modules/mediasource/SourceBuffer.cpp:appendBuffer": [
+            11,
+            30
+        ],
+        "../../third_party/WebKit/Source/modules/mediasource/SourceBuffer.cpp:remove": [
+            2,
+            2
+        ],
+        "../../third_party/WebKit/Source/modules/mediastream/MediaDevices.cpp:enumerateDevices": [
+            1,
+            5
+        ],
+        "../../third_party/WebKit/Source/modules/mediastream/MediaDevices.cpp:getUserMedia": [
+            1,
+            1
+        ],
+        "../../third_party/WebKit/Source/modules/mediastream/NavigatorUserMedia.cpp:mediaDevices": [
+            2,
+            18
+        ],
+        "../../third_party/WebKit/Source/modules/notifications/Notification.cpp:requestPermission": [
+            2,
+            4
+        ],
+        "../../third_party/WebKit/Source/modules/peerconnection/RTCPeerConnection.cpp:close": [
+            1,
+            1
+        ],
+        "../../third_party/WebKit/Source/modules/peerconnection/RTCPeerConnection.cpp:createDataChannel": [
+            1,
+            8
+        ],
+        "../../third_party/WebKit/Source/modules/plugins/DOMMimeTypeArray.cpp:item": [
+            2,
+            54
+        ],
+        "../../third_party/WebKit/Source/modules/plugins/DOMMimeTypeArray.cpp:namedItem": [
+            1,
+            42
+        ],
+        "../../third_party/WebKit/Source/modules/plugins/DOMPlugin.cpp:item": [
+            2,
+            32
+        ],
+        "../../third_party/WebKit/Source/modules/plugins/DOMPlugin.cpp:namedItem": [
+            2,
+            50
+        ],
+        "../../third_party/WebKit/Source/modules/plugins/DOMPluginArray.cpp:item": [
+            2,
+            82
+        ],
+        "../../third_party/WebKit/Source/modules/plugins/DOMPluginArray.cpp:namedItem": [
+            1,
+            484
+        ],
+        "../../third_party/WebKit/Source/modules/plugins/NavigatorPlugins.cpp:mimeTypes": [
+            2,
+            368
+        ],
+        "../../third_party/WebKit/Source/modules/screen_orientation/ScreenScreenOrientation.cpp:orientation": [
+            1,
+            67
+        ],
+        "../../third_party/WebKit/Source/modules/webaudio/AudioBuffer.cpp:getChannelData": [
+            347,
+            7498
+        ],
+        "../../third_party/WebKit/Source/modules/webaudio/AudioNode.cpp:connect": [
+            2,
+            3
+        ],
+        "../../third_party/WebKit/Source/modules/webaudio/AudioNode.cpp:disconnect": [
+            1,
+            3
+        ],
+        "../../third_party/WebKit/Source/modules/webaudio/BaseAudioContext.cpp:createDynamicsCompressor": [
+            1,
+            1
+        ],
+        "../../third_party/WebKit/Source/modules/webaudio/BaseAudioContext.cpp:createMediaStreamSource": [
+            1,
+            1
+        ],
+        "../../third_party/WebKit/Source/modules/webaudio/BaseAudioContext.cpp:createOscillator": [
+            1,
+            1
+        ],
+        "../../third_party/WebKit/Source/modules/webaudio/BaseAudioContext.cpp:createScriptProcessor": [
+            1,
+            1
+        ],
+        "../../third_party/WebKit/Source/modules/webaudio/OscillatorNode.cpp:setPeriodicWave": [
+            2,
+            2
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:activeTexture": [
+            63,
+            583
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:attachShader": [
+            2,
+            16
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:bindBuffer": [
+            1,
+            224
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:bindFramebuffer": [
+            1,
+            193
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:bindRenderbuffer": [
+            6,
+            6
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:bindTexture": [
+            1,
+            1714
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:blendFunc": [
+            27,
+            27
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:blendFuncSeparate": [
+            28,
+            28
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:bufferData": [
+            1,
+            222
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:clear": [
+            3,
+            27
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:clearColor": [
+            1,
+            15
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:compileShader": [
+            2,
+            16
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:createBuffer": [
+            1,
+            188
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:createFramebuffer": [
+            3,
+            3
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:createProgram": [
+            1,
+            8
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:createRenderbuffer": [
+            3,
+            3
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:createShader": [
+            2,
+            16
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:createTexture": [
+            9,
+            12
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:deleteBuffer": [
+            3,
+            18
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:deleteProgram": [
+            6,
+            6
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:deleteTexture": [
+            9,
+            9
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:depthFunc": [
+            1,
+            15
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:depthMask": [
+            1,
+            1
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:depthRange": [
+            1872,
+            1872
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:disable": [
+            1299,
+            1299
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:drawArrays": [
+            1,
+            1276
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:drawElements": [
+            1477,
+            1477
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:enable": [
+            1,
+            1300
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:enableVertexAttribArray": [
+            1,
+            308
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:framebufferRenderbuffer": [
+            3,
+            3
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:framebufferTexture2D": [
+            3,
+            3
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:generateMipmap": [
+            1,
+            1
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:getActiveAttrib": [
+            24,
+            24
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:getActiveUniform": [
+            44,
+            44
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:getAttribLocation": [
+            1,
+            24
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:getContextAttributes": [
+            2,
+            119
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:getError": [
+            1,
+            3
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:getExtension": [
+            1,
+            10
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:getParameter": [
+            1,
+            120
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:getProgramParameter": [
+            16,
+            16
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:getShaderParameter": [
+            12,
+            12
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:getShaderPrecisionFormat": [
+            1,
+            180
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:getSupportedExtensions": [
+            1,
+            7
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:getUniformLocation": [
+            1,
+            44
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:isContextLost": [
+            15,
+            28240
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:linkProgram": [
+            1,
+            8
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:pixelStorei": [
+            5,
+            5
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:renderbufferStorage": [
+            3,
+            3
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:shaderSource": [
+            2,
+            16
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:stencilFunc": [
+            2403,
+            2403
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:stencilOp": [
+            2376,
+            2376
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:texImage2D": [
+            9,
+            66
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:texParameteri": [
+            36,
+            36
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:texSubImage2D": [
+            32,
+            32
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:uniform1f": [
+            1353,
+            1353
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:uniform1i": [
+            9,
+            1851
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:uniform2f": [
+            1,
+            5
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:uniform2fv": [
+            79,
+            79
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:uniform3fv": [
+            108,
+            108
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:uniformMatrix4fv": [
+            2890,
+            2890
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:useProgram": [
+            1,
+            2180
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:vertexAttribPointer": [
+            1,
+            568
+        ],
+        "../../third_party/WebKit/Source/modules/webgl/WebGLRenderingContextBase.cpp:viewport": [
+            1,
+            3
+        ],
+        "../../third_party/WebKit/Source/modules/websockets/DOMWebSocket.cpp:close": [
+            4,
+            4
+        ],
+        "../../third_party/WebKit/Source/modules/websockets/DOMWebSocket.cpp:send": [
+            1,
+            12
+        ]
+    },
+    "standardalwaysused": [
+        "HTML",
+        "Page Visibility (Second Edition)",
+        "DOM",
+        "Document Object Model (DOM) Level 1 Specification",
+        "Document Object Model (DOM) Level 2 HTML Specification",
+        "HTML 5",
+        "Navigation Timing",
+        "Scalable Vector Graphics (SVG) 1.1 (Second Edition)",
+        "Document Object Model (DOM) Level 2 Core Specification",
+        "XMLHttpRequest",
+        "Document Object Model (DOM) Level 3 Core Specification",
+        "Non-Standard",
+        "Document Object Model (DOM) Level 2 Events Specification",
+        "Document Object Model (DOM) Level 2 Traversal and Range Specification",
+        "W3C DOM4"
+    ],
+    "standardneverused": [
+        "DeviceOrientation Event Specification",
+        "WebVTT: The Web Video Text Tracks Format",
+        "Selectors API Level 1",
+        "Vibration API",
+        "Media Capture from DOM Elements",
+        "Pointer Lock",
+        "Console API",
+        "Encrypted Media Extensions",
+        "Gamepad",
+        "MediaStream Recording",
+        "Shadow DOM"
+    ]
+}
