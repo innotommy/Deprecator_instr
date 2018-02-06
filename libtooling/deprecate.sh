@@ -16,7 +16,7 @@ git checkout .
 popd
 
 
-INSTRUMENT="third_party/WebKit/ v8/src/inspector/ third_party/webrtc/ out/Default/gen/blink/core/frame/"
+INSTRUMENT="third_party/WebKit/ v8/src/inspector/ third_party/webrtc/"
 
 time tools/clang/scripts/update.py --bootstrap --force-local-build --without-android --tools deprecator_logging || exit 1
 tools/clang/scripts/run_tool.py deprecator_logging out/Default $INSTRUMENT || exit 1

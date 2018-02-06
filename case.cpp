@@ -17,7 +17,7 @@ if (GLboolean)
 if (Comment)
 	return Comment::create(*this, "");
 
-if(Attr|HTMLCollection|Element|nodelist o Element|HTMLElement|Node|IDBRequest|SVGTransform|ItemProperty|Remote_BarProp)
+if(Attr|HTMLCollection|Element|nodelist o Element|HTMLElement|Node|IDBRequest| |ItemProperty|Remote_BarProp)
 	return nullptr
 
 if(BarProp)
@@ -295,3 +295,25 @@ if(DocumentFragment)
 	return nullptr|  DocumentFragment* fragment = nullptr;|DocumentFragment::create(document());
 if(SVGPoint) ~~
 	return nullptr
+
+if(Console) 
+	return nullptr
+if(CacheStorage) 
+	return nullptr
+if(Promise<Response>) 
+	return ScriptPromise()
+if(Crypto) ~~
+	return nullptr
+if(FontFaceSet) ~~
+	return nullptr
+if(IDBFactory) ~~
+	return nullptr
+if(Performance) ~~
+	return nullptr
+if(LocalDOMWindow) ~~
+	return nullptr
+if(ScreenOrientation)
+	return nullptr
+if(StyleSheetList)
+	m_styleSheetList = nullptr;
+	return *m_styleSheetList

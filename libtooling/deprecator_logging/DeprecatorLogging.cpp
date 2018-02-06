@@ -76,8 +76,8 @@ std::vector<std::string> null{"Attr","HTMLCollection","Element","nodelist o Elem
                               ,"HTMLHeadElement","File","CanvasPattern","SVGRect","HTMLTableSectionElement","screen","PerformanceNavigation","PerformanceTiming","Float32Array","XPathNSResolver","WaveShaperNode","StereoPannerNode","TreeWalker","ScriptProcessorNode","PannerNode"
                               ,"OscillatorNode","NodeIterator","MimeTypeArray","MediaStreamAudioSourceNode","MediaStreamAudioSourceNode","MediaStreamAudioDestinationNode","MediaElementAudioSourceNode","Geolocation","DynamicsCompressorNode","DelayNode"
                               ,"ConvolverNode","ChannelSplitterNode","ChannelMergerNode","BiquadFilterNode","AnalyserNode","DocumentFragment","SVGPoint","SVGMatrix","AudioParam","SVGTransform","Remote_BarProp","ReadOnly_DOMMatrix","DocumentType","HTMLTableCaptionElement"
-                              ,"Nullable<ExceptionCode>","HTMLDocument","MediaDevices"};
-std::vector<std::string> promise{"Promise","Promise<USVString>","Promise<JSON>","Promise<Blob>","Promise<ArrayBuffer>","promise","ScriptPromise"};
+                              ,"Nullable<ExceptionCode>","HTMLDocument","MediaDevices","Console","CacheStorage","Crypto","FontFaceSet","IDBFactory","Performance","StyleSheetList","LocalDOMWindow","ScreenOrientation"};
+std::vector<std::string> promise{"Promise","Promise<USVString>","Promise<JSON>","Promise<Blob>","Promise<ArrayBuffer>","promise","ScriptPromise","Promise<Response>"};
 
 namespace {
 

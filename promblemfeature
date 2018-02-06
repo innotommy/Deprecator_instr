@@ -45,7 +45,6 @@ impossible to find file/feature:
 {"feature": "MozPowerManager.prototype.addWakeLockListener"}
 {"standard_url": "https://www.w3.org/TR/html5/", "feature": "TimeEvent.prototype.initTimeEvent", "standard": "HTML 5"}
 {"standard_url": "https://html.spec.whatwg.org", "feature": "XMLDocument.prototype.load", "standard": "HTML"}
-{"standard_url": "https://w3c.github.io/uievents/", "feature": "KeyboardEvent.prototype.initKeyEvent", "standard": "UI Events Specification"}
 {"standard_url": "https://wicg.github.io/directory-upload/proposal.html", "feature": "Directory.prototype.getFilesAndDirectories", "standard": "Directory Upload"}
 {"standard_url": "https://html.spec.whatwg.org", "feature": "Navigator.prototype.registerContentHandler", "standard": "HTML"}
 {"standard_url": "https://html.spec.whatwg.org", "feature": "HashChangeEvent.prototype.initHashChangeEvent", "standard": "HTML"}
@@ -70,7 +69,6 @@ impossible to find file/feature:
 {"standard_url": "https://www.w3.org/TR/webrtc/", "feature": "RTCStatsReport.prototype.get", "standard": "WebRTC 1.0: Real-time Communication Between Browser"}
 {"standard_url": "https://www.w3.org/TR/webrtc/", "feature": "RTCStatsReport.prototype.forEach", "standard": "WebRTC 1.0: Real-time Communication Between Browser"}
 {"standard_url": "https://webaudio.github.io/web-audio-api", "feature": "AudioListener.prototype.setVelocity", "standard": "Web Audio API"}
-{"standard_url": "https://www.w3.org/TR/html5/", "feature": "HTMLMediaElement.prototype.mozGetMetadata", "standard": "HTML 5"}
 {"standard_url": "https://www.w3.org/TR/SVG/", "feature": "SVGPathElement.prototype.createSVGPathSegCurvetoCubicAbs", "standard": "Scalable Vector Graphics (SVG) 1.1 (Second Edition)"}
 {"standard_url": "https://www.w3.org/TR/SVG/", "feature": "SVGPathElement.prototype.createSVGPathSegLinetoRel", "standard": "Scalable Vector Graphics (SVG) 1.1 (Second Edition)"}
 {"standard_url": "https://www.w3.org/TR/SVG/", "feature": "SVGPathElement.prototype.createSVGPathSegCurvetoQuadraticRel", "standard": "Scalable Vector Graphics (SVG) 1.1 (Second Edition)"}
@@ -83,7 +81,7 @@ impossible to find file/feature:
 {"standard_url": "https://www.w3.org/TR/SVG/", "feature": "SVGPathElement.prototype.createSVGPathSegArcAbs", "standard": "Scalable Vector Graphics (SVG) 1.1 (Second Edition)"}
 {"standard_url": "https://www.w3.org/TR/SVG/", "feature": "SVGPathElement.prototype.createSVGPathSegLinetoHorizontalRel", "standard": "Scalable Vector Graphics (SVG) 1.1 (Second Edition)"}
 {"standard_url": "https://www.w3.org/TR/SVG/", "feature": "SVGPathElement.prototype.createSVGPathSegMovetoRel", "standard": "Scalable Vector Graphics (SVG) 1.1 (Second Edition)"}
-{"standard_url": "https://www.w3.org/TR/SVG/", "feature": "SVGPathElement.prototype.createSVGPathSegLinetoVerticalAbs", "standard": "Scalable Vector Graphics (SVG) 1.1 (Second Edition)"}<
+{"standard_url": "https://www.w3.org/TR/SVG/", "feature": "SVGPathElement.prototype.createSVGPathSegLinetoVerticalAbs", "standard": "Scalable Vector Graphics (SVG) 1.1 (Second Edition)"}
 {"standard_url": "https://www.w3.org/TR/SVG/", "feature": "SVGPathElement.prototype.createSVGPathSegLinetoVerticalRel", "standard": "Scalable Vector Graphics (SVG) 1.1 (Second Edition)"}
 {"standard_url": "https://www.w3.org/TR/SVG/", "feature": "SVGPathElement.prototype.createSVGPathSegCurvetoQuadraticSmoothRel", "standard": "Scalable Vector Graphics (SVG) 1.1 (Second Edition)"}
 {"standard_url": "https://w3c.github.io/encrypted-media/", "feature": "MediaKeyStatusMap.prototype.keys", "standard": "Encrypted Media Extensions"}
@@ -100,24 +98,14 @@ impossible to find file/feature:
 {"standard_url": "https://www.w3.org/TR/IndexedDB/", "feature": "IDBFileHandle.prototype.getMetadata", "standard": "Indexed Database API"}
 {"standard_url": "https://www.w3.org/TR/IndexedDB/", "feature": "IDBFileHandle.prototype.flush", "standard": "Indexed Database API"}
 {"standard_url": "https://www.w3.org/TR/IndexedDB/", "feature": "IDBFileHandle.prototype.readAsArrayBuffer", "standard": "Indexed Database API"}
-{"standard_url": "https://w3c.github.io/proximity/", "feature": "window.onuserproximity", "standard": "Proximity Events"}
-{"standard_url": "https://html.spec.whatwg.org", "feature": "window.console", "standard": "HTML"}
 {"standard_url": "https://www.w3.org/TR/SVG/", "feature": "SVGPathElement.prototype.createSVGPathSegLinetoHorizontalAbs", "standard": "Scalable Vector Graphics (SVG) 1.1 (Second Edition)"}
 {"standard_url": "https://www.w3.org/TR/SVG/", "feature": "SVGPathElement.prototype.createSVGPathSegClosePath", "standard": "Scalable Vector Graphics (SVG) 1.1 (Second Edition)"}
 {"standard_url": "https://html.spec.whatwg.org", "feature": "HTMLDocument.prototype.getItems", "standard": "HTML"}
 {"url_standard:": "https://drafts.csswg.org/cssom/", "feature": "Document.prototype.caretPositionFromPoint", "standard:": "CSS Object Model (CSSOM)"}
-{"url_standard:": "https://fetch.spec.whatwg.org/", "feature": "window.fetch", "standard:": "Fetch"}
-{"url_standard:": "https://w3c.github.io/proximity/", "feature": "window.ondeviceproximity", "standard:": "Proximity Events"}
-{"url_standard:": "https://www.w3.org/TR/service-workers/", "feature": "window.caches", "standard:": "Service Workers"}
-{"url_standard:": "https://www.w3.org/TR/page-visibility/", "feature": "document.mozVisibilityState", "standard:": "Page Visibility (Second Edition)"}
-{"url_standard:": "https://www.w3.org/TR/page-visibility/", "feature": "document.hidden", "standard:": "Page Visibility (Second Edition)"}
-{"url_standard:": "https://www.w3.org/TR/page-visibility/", "feature": "document.mozHidden", "standard:": "Page Visibility (Second Edition)"}
-{"url_standard:": "https://www.w3.org/TR/WebCryptoAPI/", "feature": "window.crypto", "standard:": "Web Cryptography API"}
 {"url_standard:": "https://notifications.spec.whatwg.org/", "feature": "Notification.get", "standard:": "Web Notifications"}
 {"url_standard:": "https://notifications.spec.whatwg.org/", "feature": "DesktopNotificationCenter.prototype.createNotification", "standard:": "Web Notifications"}
 {"url_standard:": "https://notifications.spec.whatwg.org/", "feature": "DesktopNotification.prototype.show", "standard:": "Web Notifications"}
 {"url_standard:": "https://www.w3.org/TR/battery-status/", "feature": "navigator.battery", "standard:": "Battery Status API"}
-{"url_standard:": "https://drafts.csswg.org/css-font-loading/", "feature": "document.fonts", "standard:": "CSS Font Loading Module Level 3"}
 {"url_standard:": "https://drafts.csswg.org/css-font-loading/", "feature": "FontFaceSet.prototype.forEach", "standard:": "CSS Font Loading Module Level 3"}
 {"url_standard:": "https://drafts.csswg.org/css-font-loading/", "feature": "FontFaceSet.prototype.keys", "standard:": "CSS Font Loading Module Level 3"}
 {"url_standard:": "https://drafts.csswg.org/css-font-loading/", "feature": "FontFaceSet.prototype.delete", "standard:": "CSS Font Loading Module Level 3"}
@@ -126,104 +114,36 @@ impossible to find file/feature:
 {"url_standard:": "https://drafts.csswg.org/css-font-loading/", "feature": "FontFaceSet.prototype.has", "standard:": "CSS Font Loading Module Level 3"}
 {"url_standard:": "https://drafts.csswg.org/css-font-loading/", "feature": "FontFaceSet.prototype.clear", "standard:": "CSS Font Loading Module Level 3"}
 {"url_standard:": "https://drafts.csswg.org/css-font-loading/", "feature": "FontFaceSet.prototype.entries", "standard:": "CSS Font Loading Module Level 3"}
-{"url_standard:": "https://www.w3.org/TR/selectors-api", "feature": "Element.prototype.querySelectorAll", "standard:": "Selectors API Level 1"}
-{"url_standard:": "https://www.w3.org/TR/selectors-api", "feature": "Document.prototype.querySelector", "standard:": "Selectors API Level 1"}
 {"url_standard:": "https://www.w3.org/TR/SVG/", "feature": "SVGPathSegList.prototype.clear", "standard:": "Scalable Vector Graphics (SVG) 1.1 (Second Edition)"}
-{"url_standard:": "https://w3c.github.io/pointerlock/", "feature": "window.onmozpointerlockerror", "standard:": "Pointer Lock"}
-{"url_standard:": "https://w3c.github.io/pointerlock/", "feature": "document.mozPointerLockElement", "standard:": "Pointer Lock"}
 {"url_standard:": "https://w3c.github.io/pointerlock/", "feature": "Document.prototype.mozExitPointerLock", "standard:": "Pointer Lock"}
-{"url_standard:": "https://w3c.github.io/pointerlock/", "feature": "document.onmozpointerlockchange", "standard:": "Pointer Lock"}
-{"url_standard:": "https://w3c.github.io/pointerlock/", "feature": "document.onmozpointerlockerror", "standard:": "Pointer Lock"}
-{"url_standard:": "https://w3c.github.io/pointerlock/", "feature": "window.onmozpointerlockchange", "standard:": "Pointer Lock"}
 {"url_standard:": "https://w3c.github.io/pointerlock/", "feature": "Element.prototype.mozRequestPointerLock", "standard:": "Pointer Lock"}
 {"url_standard:": "https://webaudio.github.io/web-audio-api", "feature": "PannerNode.prototype.setVelocity", "standard:": "Web Audio API"}
-{"url_standard:": "https://fullscreen.spec.whatwg.org/", "feature": "document.mozFullScreenEnabled", "standard:": "Fullscreen API"}
-{"url_standard:": "https://fullscreen.spec.whatwg.org/", "feature": "window.onmozfullscreenchange", "standard:": "Fullscreen API"}
-{"url_standard:": "https://fullscreen.spec.whatwg.org/", "feature": "document.onmozfullscreenchange", "standard:": "Fullscreen API"}
-{"url_standard:": "https://fullscreen.spec.whatwg.org/", "feature": "window.onmozfullscreenerror", "standard:": "Fullscreen API"}
-{"url_standard:": "https://fullscreen.spec.whatwg.org/", "feature": "Document.prototype.mozCancelFullScreen", "standard:": "Fullscreen API"}
-{"url_standard:": "https://fullscreen.spec.whatwg.org/", "feature": "document.onmozfullscreenerror", "standard:": "Fullscreen API"}
-{"url_standard:": "https://fullscreen.spec.whatwg.org/", "feature": "document.mozFullScreenElement", "standard:": "Fullscreen API"}
 {"url_standard:": "https://fullscreen.spec.whatwg.org/", "feature": "Element.prototype.mozRequestFullScreen", "standard:": "Fullscreen API"}
-{"url_standard:": "https://fullscreen.spec.whatwg.org/", "feature": "document.mozFullScreen", "standard:": "Fullscreen API"}
 {"url_standard:": "https://www.w3.org/TR/IndexedDB/", "feature": "IDBFileHandle.prototype.append", "standard:": "Indexed Database API"}
 {"url_standard:": "https://www.w3.org/TR/IndexedDB/", "feature": "IDBMutableFile.prototype.open", "standard:": "Indexed Database API"}
-{"url_standard:": "https://www.w3.org/TR/IndexedDB/", "feature": "window.indexedDB", "standard:": "Indexed Database API"}
-{"url_standard:": "https://www.w3.org/TR/navigation-timing/", "feature": "window.performance", "standard:": "Navigation Timing"}
-{"url_standard:": "https://www.w3.org/TR/DOM-Level-3-Core/", "feature": "document.documentURI", "standard:": "Document Object Model (DOM) Level 3 Core Specification"}
-{"url_standard:": "https://www.w3.org/TR/DOM-Level-2-Style/", "feature": "document.styleSheets", "standard:": "Document Object Model (DOM) Level 2 Style Specification"}
-{"url_standard:": "https://www.w3.org/TR/DOM-Level-3-XPath/", "feature": "Document.prototype.createExpression", "standard:": "Document Object Model (DOM) Level 3 XPath Specification"}
-{"url_standard:": "https://www.w3.org/TR/DOM-Level-3-XPath/", "feature": "Document.prototype.evaluate", "standard:": "Document Object Model (DOM) Level 3 XPath Specification"}
-{"url_standard:": "https://www.w3.org/TR/DOM-Level-3-XPath/", "feature": "Document.prototype.createNSResolver", "standard:": "Document Object Model (DOM) Level 3 XPath Specification"}
 {"url_standard:": "https://www.w3.org/TR/DOM-Level-2-Style/", "feature": "CSSPrimitiveValue.prototype.setFloatValue", "standard:": "Document Object Model (DOM) Level 2 Style Specification"}
 {"url_standard:": "https://www.w3.org/TR/DOM-Level-2-Style/", "feature": "CSSPrimitiveValue.prototype.getRectValue", "standard:": "Document Object Model (DOM) Level 2 Style Specification"}
 {"url_standard:": "https://www.w3.org/TR/DOM-Level-2-Style/", "feature": "CSSPrimitiveValue.prototype.getStringValue", "standard:": "Document Object Model (DOM) Level 2 Style Specification"}
 {"url_standard:": "https://www.w3.org/TR/DOM-Level-2-Style/", "feature": "CSSPrimitiveValue.prototype.getRGBColorValue", "standard:": "Document Object Model (DOM) Level 2 Style Specification"}
 {"url_standard:": "https://www.w3.org/TR/DOM-Level-2-Style/", "feature": "CSSPrimitiveValue.prototype.getCounterValue", "standard:": "Document Object Model (DOM) Level 2 Style Specification"}
 {"url_standard:": "https://www.w3.org/TR/DOM-Level-2-Style/", "feature": "CSSPrimitiveValue.prototype.setStringValue", "standard:": "Document Object Model (DOM) Level 2 Style Specification"}
-{"url_standard:": "https://www.w3.org/TR/DOM-Level-2-HTML/", "feature": "document.getElementsByName", "standard:": "Document Object Model (DOM) Level 2 HTML Specification"}
-{"url_standard:": "https://www.w3.org/TR/REC-DOM-Level-1/", "feature": "Document.prototype.getElementById", "standard:": "Document Object Model (DOM) Level 1 Specification"}
 {"url_standard:": "https://www.w3.org/TR/webrtc/", "feature": "RTCRtpSender.prototype.replaceTrack", "standard:": "WebRTC 1.0: Real-time Communication Between Browser"}
-{"url_standard:": "https://dom.spec.whatwg.org/", "feature": "window.clearInterval", "standard:": "DOM"}
-{"url_standard:": "https://dom.spec.whatwg.org/", "feature": "document.lastElementChild", "standard:": "DOM"}
-{"url_standard:": "https://dom.spec.whatwg.org/", "feature": "document.children", "standard:": "DOM"}
-{"url_standard:": "https://dom.spec.whatwg.org/", "feature": "window.clearTimeout", "standard:": "DOM"}
 {"url_standard:": "https://dom.spec.whatwg.org/", "feature": "Element.prototype.mozMatchesSelector", "standard:": "DOM"}
-{"url_standard:": "https://dom.spec.whatwg.org/", "feature": "document.characterSet", "standard:": "DOM"}
-{"url_standard:": "https://dom.spec.whatwg.org/", "feature": "document.firstElementChild", "standard:": "DOM"}
 {"url_standard:": "https://dom.spec.whatwg.org/", "feature": "DocumentType.prototype.remove", "standard:": "DOM"}
-{"url_standard:": "https://dom.spec.whatwg.org/", "feature": "document.childElementCount", "standard:": "DOM"}
-{"url_standard:": "https://html.spec.whatwg.org", "feature": "window.ononline", "standard:": "HTML"}
-{"url_standard:": "https://html.spec.whatwg.org", "feature": "window.onlanguagechange", "standard:": "HTML"}
-{"url_standard:": "https://html.spec.whatwg.org/multipage/webstorage.html", "feature": "window.sessionStorage", "standard:": "HTML"}
-{"url_standard:": "https://html.spec.whatwg.org/multipage/webstorage.html", "feature": "window.localStorage", "standard:": "HTML"}
-{"url_standard:": "https://html.spec.whatwg.org", "feature": "window.setInterval", "standard:": "HTML"}
-{"url_standard:": "https://html.spec.whatwg.org", "feature": "navigator.platform", "standard:": "HTML"}
 {"url_standard:": "https://html.spec.whatwg.org", "feature": "navigator.productSub", "standard:": "HTML"}
-{"url_standard:": "https://html.spec.whatwg.org", "feature": "Navigator.prototype.registerProtocolHandler", "standard:": "HTML"}
-{"url_standard:": "https://html.spec.whatwg.org", "feature": "document.oninput", "standard:": "HTML"}
-{"url_standard:": "https://html.spec.whatwg.org", "feature": "navigator.onLine", "standard:": "HTML"}
-{"url_standard:": "https://html.spec.whatwg.org", "feature": "window.setTimeout", "standard:": "HTML"}
-{"url_standard:": "https://html.spec.whatwg.org", "feature": "window.onbeforeprint", "standard:": "HTML"}
-{"url_standard:": "https://html.spec.whatwg.org", "feature": "window.onoffline", "standard:": "HTML"}
 {"url_standard:": "https://html.spec.whatwg.org", "feature": "window.showModalDialog", "standard:": "HTML"}
-{"url_standard:": "https://html.spec.whatwg.org", "feature": "window.onbeforeunload", "standard:": "HTML"}
-{"url_standard:": "https://html.spec.whatwg.org", "feature": "window.onhashchange", "standard:": "HTML"}
-{"url_standard:": "https://html.spec.whatwg.org", "feature": "document.onended", "standard:": "HTML"}
-{"url_standard:": "https://html.spec.whatwg.org", "feature": "window.onpagehide", "standard:": "HTML"}
-{"url_standard:": "https://html.spec.whatwg.org", "feature": "navigator.cookieEnabled", "standard:": "HTML"}
 {"url_standard:": "https://html.spec.whatwg.org", "feature": "PropertyNodeList.prototype.getValues", "standard:": "HTML"}
-{"url_standard:": "https://html.spec.whatwg.org", "feature": "navigator.appVersion", "standard:": "HTML"}
 {"url_standard:": "https://html.spec.whatwg.org", "feature": "document.styleSheetSets", "standard:": "HTML"}
-{"url_standard:": "https://html.spec.whatwg.org", "feature": "window.window", "standard:": "HTML"}
-{"url_standard:": "https://html.spec.whatwg.org", "feature": "window.onpageshow", "standard:": "HTML"}
 {"url_standard:": "https://html.spec.whatwg.org", "feature": "window.setResizable", "standard:": "HTML"}
-{"url_standard:": "https://html.spec.whatwg.org", "feature": "navigator.product", "standard:": "HTML"}
-{"url_standard:": "https://html.spec.whatwg.org", "feature": "window.onpopstate", "standard:": "HTML"}
 {"url_standard:": "https://html.spec.whatwg.org", "feature": "navigator.vendor", "standard:": "HTML"}
-{"url_standard:": "https://html.spec.whatwg.org", "feature": "window.onafterprint", "standard:": "HTML"}
-{"url_standard:": "https://html.spec.whatwg.org", "feature": "window.frames", "standard:": "HTML"}
-{"url_standard:": "https://html.spec.whatwg.org", "feature": "window.onmessage", "standard:": "HTML"}
-{"url_standard:": "https://html.spec.whatwg.org", "feature": "navigator.userAgent", "standard:": "HTML"}
-{"url_standard:": "https://html.spec.whatwg.org", "feature": "navigator.appCodeName", "standard:": "HTML"}
-{"url_standard:": "https://html.spec.whatwg.org", "feature": "navigator.appName", "standard:": "HTML"}
-{"url_standard:": "https://html.spec.whatwg.org", "feature": "navigator.vendorSub", "standard:": "HTML"}
 {"url_standard:": "https://html.spec.whatwg.org", "feature": "document.getItems", "standard:": "HTML"}
-{"url_standard:": "https://html.spec.whatwg.org/multipage/webappapis.html#plugins-2", "feature": "navigator.plugins", "standard:": "HTML"}
 {"url_standard:": "https://www.w3.org/TR/html5/", "feature": "OfflineResourceList.prototype.mozItem", "standard:": "HTML 5"}
 {"url_standard:": "https://www.w3.org/TR/html5/", "feature": "OfflineResourceList.prototype.update", "standard:": "HTML 5"}
 {"url_standard:": "https://www.w3.org/TR/html5/", "feature": "OfflineResourceList.prototype.swapCache", "standard:": "HTML 5"}
 {"url_standard:": "https://www.w3.org/TR/html5/", "feature": "OfflineResourceList.prototype.mozAdd", "standard:": "HTML 5"}
-{"url_standard:": "https://www.w3.org/TR/html5/", "feature": "document.defaultView", "standard:": "HTML 5"}
 {"url_standard:": "https://www.w3.org/TR/html5/", "feature": "OfflineResourceList.prototype.mozHasItem", "standard:": "HTML 5"}
 {"url_standard:": "https://www.w3.org/TR/html5/", "feature": "OfflineResourceList.prototype.mozRemove", "standard:": "HTML 5"}
-{"url_standard:": "https://drafts.csswg.org/cssom-view/", "feature": "CaretPosition.prototype.getClientRect", "standard:": "CSSOM View Module"}
-{"url_standard:": "https://www.w3.org/TR/html5/", "feature": "document.onbeforescriptexecute", "standard:": "HTML 5"}
-{"url_standard:": "https://www.w3.org/TR/html5/", "feature": "document.onafterscriptexecute", "standard:": "HTML 5"}
 {"url_standard:": "https://www.w3.org/TR/webrtc/", "feature": "mozRTCPeerConnection.prototype.getConfiguration", "standard:": "WebRTC 1.0: Real-time Communication Between Browser"}
-{"url_standard:": "https://w3c.github.io/screen-orientation/", "feature": "screen.mozOrientation", "standard:": "The Screen Orientation API"}
-{"url_standard:": "https://w3c.github.io/screen-orientation/", "feature": "screen.onmozorientationchange", "standard:": "The Screen Orientation API"}
-{"url_standard:": "https://w3c.github.io/screen-orientation/", "feature": "screen.orientation", "standard:": "The Screen Orientation API"}
 {"url_standard:": "https://www.w3.org/TR/webrtc/", "feature": "mozRTCPeerConnection.prototype.getIdentityAssertion", "standard:": "WebRTC 1.0: Real-time Communication Between Browser"}
 {"url_standard:": "https://www.w3.org/TR/webrtc/", "feature": "mozRTCPeerConnection.prototype.setIdentityProvider", "standard:": "WebRTC 1.0: Real-time Communication Between Browser"}
 {"url_standard:": "https://html.spec.whatwg.org", "feature": "document.lastStyleSheetSet", "standard:": "HTML"}
@@ -346,6 +266,32 @@ Event attribute not proper function or attribute getter setter
 {"url_standard:": "https://html.spec.whatwg.org", "feature": "window.onloadedmetadata", "standard:": "HTML"}
 {"url_standard:": "https://html.spec.whatwg.org", "feature": "window.onmouseover", "standard:": "HTML"}
 {"url_standard:": "https://w3c.github.io/ambient-light/", "feature": "window.ondevicelight", "standard:": "Ambient Light Sensor API"}
+{"url_standard:": "https://w3c.github.io/screen-orientation/", "feature": "screen.onmozorientationchange", "standard:": "The Screen Orientation API"}
+{"url_standard:": "https://www.w3.org/TR/html5/", "feature": "document.onbeforescriptexecute", "standard:": "HTML 5"}
+{"url_standard:": "https://www.w3.org/TR/html5/", "feature": "document.onafterscriptexecute", "standard:": "HTML 5"}
+{"url_standard:": "https://html.spec.whatwg.org", "feature": "window.onafterprint", "standard:": "HTML"}
+{"url_standard:": "https://html.spec.whatwg.org", "feature": "window.onmessage", "standard:": "HTML"}
+{"url_standard:": "https://html.spec.whatwg.org", "feature": "window.onpageshow", "standard:": "HTML"}
+{"url_standard:": "https://html.spec.whatwg.org", "feature": "window.onpopstate", "standard:": "HTML"}
+{"url_standard:": "https://html.spec.whatwg.org", "feature": "window.onbeforeunload", "standard:": "HTML"}
+{"url_standard:": "https://html.spec.whatwg.org", "feature": "window.onhashchange", "standard:": "HTML"}
+{"url_standard:": "https://html.spec.whatwg.org", "feature": "document.onended", "standard:": "HTML"}
+{"url_standard:": "https://html.spec.whatwg.org", "feature": "window.onpagehide", "standard:": "HTML"}
+{"url_standard:": "https://html.spec.whatwg.org", "feature": "document.oninput", "standard:": "HTML"}
+{"url_standard:": "https://html.spec.whatwg.org", "feature": "window.onbeforeprint", "standard:": "HTML"}
+{"url_standard:": "https://html.spec.whatwg.org", "feature": "window.onoffline", "standard:": "HTML"}
+{"url_standard:": "https://html.spec.whatwg.org", "feature": "window.ononline", "standard:": "HTML"}
+{"url_standard:": "https://html.spec.whatwg.org", "feature": "window.onlanguagechange", "standard:": "HTML"}
+{"url_standard:": "https://fullscreen.spec.whatwg.org/", "feature": "window.onmozfullscreenchange", "standard:": "Fullscreen API"}
+{"url_standard:": "https://fullscreen.spec.whatwg.org/", "feature": "document.onmozfullscreenchange", "standard:": "Fullscreen API"}
+{"url_standard:": "https://fullscreen.spec.whatwg.org/", "feature": "window.onmozfullscreenerror", "standard:": "Fullscreen API"}
+{"url_standard:": "https://fullscreen.spec.whatwg.org/", "feature": "document.onmozfullscreenerror", "standard:": "Fullscreen API"}
+{"url_standard:": "https://w3c.github.io/pointerlock/", "feature": "document.onmozpointerlockchange", "standard:": "Pointer Lock"}
+{"url_standard:": "https://w3c.github.io/pointerlock/", "feature": "document.onmozpointerlockerror", "standard:": "Pointer Lock"}
+{"url_standard:": "https://w3c.github.io/pointerlock/", "feature": "window.onmozpointerlockchange", "standard:": "Pointer Lock"}
+{"url_standard:": "https://w3c.github.io/pointerlock/", "feature": "window.onmozpointerlockerror", "standard:": "Pointer Lock"}
+{"url_standard:": "https://w3c.github.io/proximity/", "feature": "window.ondeviceproximity", "standard:": "Proximity Events"}
+{"standard_url": "https://w3c.github.io/proximity/", "feature": "window.onuserproximity", "standard": "Proximity Events"}
 
 removed/modified after change of standards or do to bug discovered:
 {"standard_url": "http://w3c.github.io/selection-api/", "feature": "Selection.prototype.removeRange", "standard": "Selection API"}
